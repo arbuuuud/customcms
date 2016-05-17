@@ -1,0 +1,85 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flat UI - {{ this.page.title }}</title>
+        <meta name="author" content="October CMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />
+        {% styles %}
+        <link href="{{ [
+            'assets/css/theme.css',
+            'assets/vendor/wowslider/engine1/style.css'
+        ]|theme }}" rel="stylesheet">
+    </head>
+    <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+        <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_10993.jpg'|theme }}" alt="IMG_1099-3" title="IMG_1099-3" id="wows1_0"/></li>
+        <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2778.jpg'|theme }}" alt="_MG_2778" title="_MG_2778" id="wows1_1"/></li>
+        <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_13443.jpg'|theme }}" alt="IMG_1344-3" title="IMG_1344-3" id="wows1_2"/></li>
+        <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2409.jpg'|theme }}" alt="_MG_2409" title="_MG_2409" id="wows1_3"/></li>
+        <li><a href="http://wowslider.com/vi"><img src="{{ 'assets/vendor/wowslider/data1/images/img_1130.jpg'|theme }}" alt="bootstrap slider" title="IMG_1130" id="wows1_4"/></a></li>
+        <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2379.jpg'|theme }}" alt="_MG_2379" title="_MG_2379" id="wows1_5"/></li>
+    </ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>  
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+        <!-- Header -->
+        <header id="layout-header" class="header-navbar">
+            <!-- Nav -->
+            {% partial "nav" %}
+        </header>
+
+
+        <!-- Content -->
+        <div id="layout-content">
+            {% page %}
+        </div>
+
+        <!-- Mailing List -->
+        <section id="layout-subscribe" class="subscribe-form">
+            {% partial "subscribe" %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial "footer" %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ [
+            'assets/javascript/jquery.js',
+            'assets/vendor/bootstrap/js/transition.js',
+            'assets/vendor/bootstrap/js/alert.js',
+            'assets/vendor/bootstrap/js/button.js',
+            'assets/vendor/bootstrap/js/carousel.js',
+            'assets/vendor/bootstrap/js/collapse.js',
+            'assets/vendor/bootstrap/js/dropdown.js',
+            'assets/vendor/bootstrap/js/modal.js',
+            'assets/vendor/bootstrap/js/tooltip.js',
+            'assets/vendor/bootstrap/js/popover.js',
+            'assets/vendor/bootstrap/js/scrollspy.js',
+            'assets/vendor/bootstrap/js/tab.js',
+            'assets/vendor/bootstrap/js/affix.js',
+            'assets/vendor/flat-ui/js/bootstrap-select.js',
+            'assets/vendor/flat-ui/js/bootstrap-switch.js',
+            'assets/vendor/flat-ui/js/flatui-checkbox.js',
+            'assets/vendor/flat-ui/js/flatui-radio.js',
+            'assets/vendor/flat-ui/js/jquery.tagsinput.js',
+            'assets/vendor/flat-ui/js/jquery.placeholder.js',
+            'assets/javascript/app.js',
+            'assets/vendor/wowslider/engine1/wowslider.js',
+            'assets/vendor/wowslider/engine1/script.js',
+        ]|theme }}"></script>
+
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>
