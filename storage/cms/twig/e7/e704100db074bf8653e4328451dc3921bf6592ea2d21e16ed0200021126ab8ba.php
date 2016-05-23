@@ -19,7 +19,7 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
         echo "<div class=\"container-fluid header-top\">
     <div class=\"container\">
         <div class=\"row\">
-            <div class=\"col-md-6 col-sm-8\">
+            <div class=\"col-md-5 col-sm-8\">
                 <div class=\"row\">
                     <div class=\"col-sm-3 language-box hidden-xs\">
                         <div class=\"dropdown\">
@@ -35,7 +35,13 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
                     </div>
                 </div>
             </div>
-            <div class=\"col-md-6 col-sm-4\">
+            <div class=\"brand col-md-2 col-sm-4\">
+                <a href=\"index.html\"><img src=\"";
+        // line 21
+        echo "upload/logo.png";
+        echo "\" width=\"180\" /></a>
+            </div>
+            <div class=\"col-md-5 col-sm-4\">
                 <div class=\"header-top-right\">
                     <a href=\"about-us.html\" class=\"font-small text-uppercase\" >About Us</a>
                     <a href=\"enquire.html\" class=\"font-small text-uppercase\" >Enquire Now</a>
@@ -45,15 +51,10 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
         </div>
     </div>
 </div>
-<div class=\"container-fluid header-menu\">
+<div class=\"container-fluid header-menu text-center\">
     <div class=\"container\">
         <div class=\"row\">
-            <div class=\"brand\">
-                <a href=\"index.html\"><img src=\"";
-        // line 34
-        echo "upload/logo.png";
-        echo "\" width=\"120\" /></a>
-            </div>
+            
             <div class=\"rm-container\">
                 <a class=\"rm-toggle rm-button rm-nojs\" href=\"javascript:void(0)\">Menu</a>
                 <nav class=\"rm-nav rm-nojs rm-lighten\">
@@ -83,6 +84,14 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
                             <li><a href=\"meetings-events/wedding.html\">Wedding</a></li>
                             <li><a href=\"meetings-events/conference.html\">Conference</a></li>
                         </ul>
+                    </li>
+                    <li style=\"display: none\">
+                        <div class=\"brand col-md-2 col-sm-4\">
+                        <a href=\"index.html\"><img src=\"";
+        // line 69
+        echo "upload/logo.png";
+        echo "\" width=\"120\" /></a>
+                    </div>
                     </li>
                     <li><a href=\"activities.html\">Activities</a>
                         <ul >
@@ -141,13 +150,13 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 
     public function getDebugInfo()
     {
-        return array (  54 => 34,  19 => 1,);
+        return array (  92 => 69,  41 => 21,  19 => 1,);
     }
 }
 /* <div class="container-fluid header-top">*/
 /*     <div class="container">*/
 /*         <div class="row">*/
-/*             <div class="col-md-6 col-sm-8">*/
+/*             <div class="col-md-5 col-sm-8">*/
 /*                 <div class="row">*/
 /*                     <div class="col-sm-3 language-box hidden-xs">*/
 /*                         <div class="dropdown">*/
@@ -163,7 +172,10 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 /*                     </div>*/
 /*                 </div>*/
 /*             </div>*/
-/*             <div class="col-md-6 col-sm-4">*/
+/*             <div class="brand col-md-2 col-sm-4">*/
+/*                 <a href="index.html"><img src="{{'upload/logo.png'}}" width="180" /></a>*/
+/*             </div>*/
+/*             <div class="col-md-5 col-sm-4">*/
 /*                 <div class="header-top-right">*/
 /*                     <a href="about-us.html" class="font-small text-uppercase" >About Us</a>*/
 /*                     <a href="enquire.html" class="font-small text-uppercase" >Enquire Now</a>*/
@@ -173,12 +185,10 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 /*         </div>*/
 /*     </div>*/
 /* </div>*/
-/* <div class="container-fluid header-menu">*/
+/* <div class="container-fluid header-menu text-center">*/
 /*     <div class="container">*/
 /*         <div class="row">*/
-/*             <div class="brand">*/
-/*                 <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>*/
-/*             </div>*/
+/*             */
 /*             <div class="rm-container">*/
 /*                 <a class="rm-toggle rm-button rm-nojs" href="javascript:void(0)">Menu</a>*/
 /*                 <nav class="rm-nav rm-nojs rm-lighten">*/
@@ -208,6 +218,11 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 /*                             <li><a href="meetings-events/wedding.html">Wedding</a></li>*/
 /*                             <li><a href="meetings-events/conference.html">Conference</a></li>*/
 /*                         </ul>*/
+/*                     </li>*/
+/*                     <li style="display: none">*/
+/*                         <div class="brand col-md-2 col-sm-4">*/
+/*                         <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>*/
+/*                     </div>*/
 /*                     </li>*/
 /*                     <li><a href="activities.html">Activities</a>*/
 /*                         <ul >*/

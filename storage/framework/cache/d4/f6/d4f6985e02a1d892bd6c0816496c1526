@@ -1,7 +1,7 @@
-1463994244s:12534:"a:6:{s:5:"mtime";i:1463980892;s:7:"content";s:6189:"<div class="container-fluid header-top">
+1464010554s:13138:"a:6:{s:5:"mtime";i:1464008151;s:7:"content";s:6491:"<div class="container-fluid header-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-8">
+            <div class="col-md-5 col-sm-8">
                 <div class="row">
                     <div class="col-sm-3 language-box hidden-xs">
                         <div class="dropdown">
@@ -17,7 +17,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-4">
+            <div class="brand col-md-2 col-sm-4">
+                <a href="index.html"><img src="{{'upload/logo.png'}}" width="180" /></a>
+            </div>
+            <div class="col-md-5 col-sm-4">
                 <div class="header-top-right">
                     <a href="about-us.html" class="font-small text-uppercase" >About Us</a>
                     <a href="enquire.html" class="font-small text-uppercase" >Enquire Now</a>
@@ -27,12 +30,10 @@
         </div>
     </div>
 </div>
-<div class="container-fluid header-menu">
+<div class="container-fluid header-menu text-center">
     <div class="container">
         <div class="row">
-            <div class="brand">
-                <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>
-            </div>
+            
             <div class="rm-container">
                 <a class="rm-toggle rm-button rm-nojs" href="javascript:void(0)">Menu</a>
                 <nav class="rm-nav rm-nojs rm-lighten">
@@ -62,6 +63,11 @@
                             <li><a href="meetings-events/wedding.html">Wedding</a></li>
                             <li><a href="meetings-events/conference.html">Conference</a></li>
                         </ul>
+                    </li>
+                    <li style="display: none">
+                        <div class="brand col-md-2 col-sm-4">
+                        <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>
+                    </div>
                     </li>
                     <li><a href="activities.html">Activities</a>
                         <ul >
@@ -105,10 +111,10 @@
             </div>
         </div>
     </div>
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6189:"<div class="container-fluid header-top">
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:6491:"<div class="container-fluid header-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-8">
+            <div class="col-md-5 col-sm-8">
                 <div class="row">
                     <div class="col-sm-3 language-box hidden-xs">
                         <div class="dropdown">
@@ -124,7 +130,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-4">
+            <div class="brand col-md-2 col-sm-4">
+                <a href="index.html"><img src="{{'upload/logo.png'}}" width="180" /></a>
+            </div>
+            <div class="col-md-5 col-sm-4">
                 <div class="header-top-right">
                     <a href="about-us.html" class="font-small text-uppercase" >About Us</a>
                     <a href="enquire.html" class="font-small text-uppercase" >Enquire Now</a>
@@ -134,12 +143,10 @@
         </div>
     </div>
 </div>
-<div class="container-fluid header-menu">
+<div class="container-fluid header-menu text-center">
     <div class="container">
         <div class="row">
-            <div class="brand">
-                <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>
-            </div>
+            
             <div class="rm-container">
                 <a class="rm-toggle rm-button rm-nojs" href="javascript:void(0)">Menu</a>
                 <nav class="rm-nav rm-nojs rm-lighten">
@@ -169,6 +176,11 @@
                             <li><a href="meetings-events/wedding.html">Wedding</a></li>
                             <li><a href="meetings-events/conference.html">Conference</a></li>
                         </ul>
+                    </li>
+                    <li style="display: none">
+                        <div class="brand col-md-2 col-sm-4">
+                        <a href="index.html"><img src="{{'upload/logo.png'}}" width="120" /></a>
+                    </div>
                     </li>
                     <li><a href="activities.html">Activities</a>
                         <ul >

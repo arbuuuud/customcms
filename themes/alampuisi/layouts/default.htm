@@ -26,7 +26,7 @@ description = "Default layout"
         <title>Flat UI - {{ this.page.title }}</title>
         <meta name="author" content="October CMS">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />
+        <link rel="icon" type="image/png" href="{{ 'assets/themes/alampuisi/upload/logo.png'|theme }}" />
          <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -95,14 +95,13 @@ description = "Default layout"
         ]|theme }}" rel="stylesheet">
 
         <link rel="shortcut icon" href="favicon.png" />
-        <link href='assets/vendor/alampuisi/js/modernizr.custom.js'>
 
     </head>
-    <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">
+    <body>
 
         <!-- Header -->
-        <header class="big-img" id="big-img" style="background-image: url('po-content/po-upload/index.html'); transition: 0.15s;">
-            <!-- Nav -->
+        <div class="wrapper scrollbar-dynamic">
+        <header class="big-img" id="big-img" style="background-image: url("full_room-celebrity-suite-bedroom"; transition: 0.15s;">
             {% partial "nav" %}
         </header>
 
@@ -115,11 +114,14 @@ description = "Default layout"
         <footer>
             {% partial "footer" %}
         </footer>
+        </div>
 
     <!-- JavaScript -->
     <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
         <!-- Scripts -->
+
         <script src="{{ [
+        'assets/vendor/alampuisi/js/modernizr.custom.js',
         'assets/vendor/alampuisi/js/jquery.js',
         'assets/vendor/alampuisi/js/bootstrap.min.js',
         'assets/vendor/alampuisi/js/jquery-scrolltofixed-min.js',
@@ -137,17 +139,17 @@ description = "Default layout"
         {% framework extras %}
         {% scripts %}
              <script type="text/javascript">
-                        var images = ["pg-mainslider.jpg","pg-mainslider2.jpg"];
+                        var images = ["Entrance-1.jpg","Pool-Villa-17.jpg"];
             $(function () {
                 var i = 0;
-                $("#big-img").css("background-image", "url(http://www.transresortbali.com/po-content/po-upload/" + images[i] + ")");
+                $("#big-img").css("background-image", "url(upload/" + images[i] + ")");
                 setInterval(function () {
                     i++;
                     if (i == images.length) {
                         i = 0;
                     }
                     $("#big-img").stop().animate({opacity: 1}, 2000, function(){
-                        $(this).css({'background-image': "url(http://www.transresortbali.com/po-content/po-upload/" + images[i] + ")"}).animate({opacity: 1},{duration:2000});
+                        $(this).css({'background-image': "url(upload/alampuisi/" + images[i] + ")"}).animate({opacity: 1},{duration:2000});
                     });
                 }, 8000);
             });

@@ -1,4 +1,4 @@
-1463994244s:34514:"a:6:{s:5:"mtime";i:1463980621;s:7:"content";s:17172:"title = "Demonstration"
+1464010331s:34578:"a:6:{s:5:"mtime";i:1463996093;s:7:"content";s:17204:"title = "Demonstration"
 url = "/"
 layout = "default"
 ==
@@ -100,8 +100,8 @@ layout = "default"
                 </div>
             </div>
             <div class="custom-navigation">
-                <a class="navigation-left home-slide-left"><img src="{{'assets/vendor/transhotel/images/nav-left.png'}}" /></a>
-                <a class="navigation-right home-slide-right"><img src="{{'assets/vendor/transhotel/images/nav-right.png'}}" /></a>
+                <a class="navigation-left home-slide-left"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png'}}" /></a>
+                <a class="navigation-right home-slide-right"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png'}}" /></a>
             </div>
         </div>
     </div>
@@ -271,7 +271,7 @@ Miss Bali Tropix official &ldquo;Ties and...
             </div>
         </div>
     </div>
-";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:17106:"<div class="header-book">
+";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:17138:"<div class="header-book">
             <div class="container">
                 <div class="row visible-xs text-center box-btn-book" id="box-btn-book">
                     <div class="col-md-12" style="background-color: #000000;">
@@ -368,8 +368,8 @@ Miss Bali Tropix official &ldquo;Ties and...
                 </div>
             </div>
             <div class="custom-navigation">
-                <a class="navigation-left home-slide-left"><img src="{{'assets/vendor/transhotel/images/nav-left.png'}}" /></a>
-                <a class="navigation-right home-slide-right"><img src="{{'assets/vendor/transhotel/images/nav-right.png'}}" /></a>
+                <a class="navigation-left home-slide-left"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png'}}" /></a>
+                <a class="navigation-right home-slide-right"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png'}}" /></a>
             </div>
         </div>
     </div>

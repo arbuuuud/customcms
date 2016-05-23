@@ -124,11 +124,11 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
             <div class=\"custom-navigation\">
                 <a class=\"navigation-left home-slide-left\"><img src=\"";
         // line 98
-        echo "assets/vendor/transhotel/images/nav-left.png";
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png";
         echo "\" /></a>
                 <a class=\"navigation-right home-slide-right\"><img src=\"";
         // line 99
-        echo "assets/vendor/transhotel/images/nav-right.png";
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png";
         echo "\" /></a>
             </div>
         </div>
@@ -451,8 +451,8 @@ Miss Bali Tropix official &ldquo;Ties and...
 /*                 </div>*/
 /*             </div>*/
 /*             <div class="custom-navigation">*/
-/*                 <a class="navigation-left home-slide-left"><img src="{{'assets/vendor/transhotel/images/nav-left.png'}}" /></a>*/
-/*                 <a class="navigation-right home-slide-right"><img src="{{'assets/vendor/transhotel/images/nav-right.png'}}" /></a>*/
+/*                 <a class="navigation-left home-slide-left"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png'}}" /></a>*/
+/*                 <a class="navigation-right home-slide-right"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png'}}" /></a>*/
 /*             </div>*/
 /*         </div>*/
 /*     </div>*/

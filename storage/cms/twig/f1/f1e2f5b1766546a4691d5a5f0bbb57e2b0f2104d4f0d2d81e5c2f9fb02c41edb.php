@@ -47,7 +47,7 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <link rel=\"icon\" type=\"image/png\" href=\"";
         // line 27
-        echo $this->env->getExtension('CMS')->themeFilter("assets/images/logo.png");
+        echo $this->env->getExtension('CMS')->themeFilter("assets/themes/alampuisi/upload/logo.png");
         echo "\" />
          <meta charset=\"utf-8\" />
         <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
@@ -114,78 +114,74 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
         echo "\" rel=\"stylesheet\">
 
         <link rel=\"shortcut icon\" href=\"favicon.png\" />
-        <link href='assets/vendor/alampuisi/js/modernizr.custom.js'>
 
     </head>
-    <body class=\"page-";
-        // line 99
-        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "page", array()), "id", array()), "html", null, true);
-        echo " layout-";
-        echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "layout", array()), "id", array()), "html", null, true);
-        echo "\">
+    <body>
 
         <!-- Header -->
-        <header class=\"big-img\" id=\"big-img\" style=\"background-image: url('po-content/po-upload/index.html'); transition: 0.15s;\">
-            <!-- Nav -->
+        <div class=\"wrapper scrollbar-dynamic\">
+        <header class=\"big-img\" id=\"big-img\" style=\"background-image: url(\"full_room-celebrity-suite-bedroom\"; transition: 0.15s;\">
             ";
-        // line 104
+        // line 103
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("nav"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 105
+        // line 104
         echo "        </header>
 
 
         <!-- Content -->
             ";
-        // line 109
+        // line 108
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 110
+        // line 109
         echo "
 
         <!-- Footer -->
         <footer>
             ";
-        // line 114
+        // line 113
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 115
+        // line 114
         echo "        </footer>
+        </div>
 
     <!-- JavaScript -->
     <!-- <script src=\"https://maps.googleapis.com/maps/api/js\"></script> -->
         <!-- Scripts -->
+
         <script src=\"";
-        // line 120
-        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/vendor/alampuisi/js/jquery.js", 1 => "assets/vendor/alampuisi/js/bootstrap.min.js", 2 => "assets/vendor/alampuisi/js/jquery-scrolltofixed-min.js", 3 => "assets/vendor/alampuisi/js/chosen.jquery.min.js", 4 => "assets/vendor/alampuisi/js/datepicker.js", 5 => "assets/vendor/alampuisi/js/bootstrap-timepicker.min.js", 6 => "assets/vendor/alampuisi/owl-carousel/owl.carousel.js", 7 => "assets/vendor/alampuisi/js/toucheffects.js", 8 => "assets/vendor/alampuisi/js/jquery.prettyPhoto.js", 9 => "assets/vendor/alampuisi/js/jquery.scrollbar.min.js", 10 => "assets/vendor/alampuisi/js/lightslider.min.js", 11 => "assets/vendor/alampuisi/js/responsive-menu.min.js", 12 => "assets/vendor/alampuisi/js/main.js"));
-        // line 134
+        // line 121
+        echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/vendor/alampuisi/js/modernizr.custom.js", 1 => "assets/vendor/alampuisi/js/jquery.js", 2 => "assets/vendor/alampuisi/js/bootstrap.min.js", 3 => "assets/vendor/alampuisi/js/jquery-scrolltofixed-min.js", 4 => "assets/vendor/alampuisi/js/chosen.jquery.min.js", 5 => "assets/vendor/alampuisi/js/datepicker.js", 6 => "assets/vendor/alampuisi/js/bootstrap-timepicker.min.js", 7 => "assets/vendor/alampuisi/owl-carousel/owl.carousel.js", 8 => "assets/vendor/alampuisi/js/toucheffects.js", 9 => "assets/vendor/alampuisi/js/jquery.prettyPhoto.js", 10 => "assets/vendor/alampuisi/js/jquery.scrollbar.min.js", 11 => "assets/vendor/alampuisi/js/lightslider.min.js", 12 => "assets/vendor/alampuisi/js/responsive-menu.min.js", 13 => "assets/vendor/alampuisi/js/main.js"));
+        // line 136
         echo "\"></script>
         ";
-        // line 135
+        // line 137
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 136
+        // line 138
         echo "        ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 137
+        // line 139
         echo "             <script type=\"text/javascript\">
-                        var images = [\"pg-mainslider.jpg\",\"pg-mainslider2.jpg\"];
+                        var images = [\"Entrance-1.jpg\",\"Pool-Villa-17.jpg\"];
             \$(function () {
                 var i = 0;
-                \$(\"#big-img\").css(\"background-image\", \"url(http://www.transresortbali.com/po-content/po-upload/\" + images[i] + \")\");
+                \$(\"#big-img\").css(\"background-image\", \"url(upload/\" + images[i] + \")\");
                 setInterval(function () {
                     i++;
                     if (i == images.length) {
                         i = 0;
                     }
                     \$(\"#big-img\").stop().animate({opacity: 1}, 2000, function(){
-                        \$(this).css({'background-image': \"url(http://www.transresortbali.com/po-content/po-upload/\" + images[i] + \")\"}).animate({opacity: 1},{duration:2000});
+                        \$(this).css({'background-image': \"url(upload/alampuisi/\" + images[i] + \")\"}).animate({opacity: 1},{duration:2000});
                     });
                 }, 8000);
             });
@@ -207,7 +203,7 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 
     public function getDebugInfo()
     {
-        return array (  177 => 137,  173 => 136,  166 => 135,  163 => 134,  161 => 120,  154 => 115,  150 => 114,  144 => 110,  142 => 109,  136 => 105,  132 => 104,  122 => 99,  114 => 93,  112 => 82,  107 => 79,  104 => 78,  50 => 27,  44 => 24,  19 => 1,);
+        return array (  173 => 139,  169 => 138,  162 => 137,  159 => 136,  157 => 121,  148 => 114,  144 => 113,  138 => 109,  136 => 108,  130 => 104,  126 => 103,  114 => 93,  112 => 82,  107 => 79,  104 => 78,  50 => 27,  44 => 24,  19 => 1,);
     }
 }
 /* <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">*/
@@ -236,7 +232,7 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         <title>Flat UI - {{ this.page.title }}</title>*/
 /*         <meta name="author" content="October CMS">*/
 /*         <meta name="viewport" content="width=device-width, initial-scale=1.0">*/
-/*         <link rel="icon" type="image/png" href="{{ 'assets/images/logo.png'|theme }}" />*/
+/*         <link rel="icon" type="image/png" href="{{ 'assets/themes/alampuisi/upload/logo.png'|theme }}" />*/
 /*          <meta charset="utf-8" />*/
 /*         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />*/
 /*         <meta http-equiv="X-UA-Compatible" content="IE=edge" />*/
@@ -305,14 +301,13 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         ]|theme }}" rel="stylesheet">*/
 /* */
 /*         <link rel="shortcut icon" href="favicon.png" />*/
-/*         <link href='assets/vendor/alampuisi/js/modernizr.custom.js'>*/
 /* */
 /*     </head>*/
-/*     <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">*/
+/*     <body>*/
 /* */
 /*         <!-- Header -->*/
-/*         <header class="big-img" id="big-img" style="background-image: url('po-content/po-upload/index.html'); transition: 0.15s;">*/
-/*             <!-- Nav -->*/
+/*         <div class="wrapper scrollbar-dynamic">*/
+/*         <header class="big-img" id="big-img" style="background-image: url("full_room-celebrity-suite-bedroom"; transition: 0.15s;">*/
 /*             {% partial "nav" %}*/
 /*         </header>*/
 /* */
@@ -325,11 +320,14 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         <footer>*/
 /*             {% partial "footer" %}*/
 /*         </footer>*/
+/*         </div>*/
 /* */
 /*     <!-- JavaScript -->*/
 /*     <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->*/
 /*         <!-- Scripts -->*/
+/* */
 /*         <script src="{{ [*/
+/*         'assets/vendor/alampuisi/js/modernizr.custom.js',*/
 /*         'assets/vendor/alampuisi/js/jquery.js',*/
 /*         'assets/vendor/alampuisi/js/bootstrap.min.js',*/
 /*         'assets/vendor/alampuisi/js/jquery-scrolltofixed-min.js',*/
@@ -347,17 +345,17 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         {% framework extras %}*/
 /*         {% scripts %}*/
 /*              <script type="text/javascript">*/
-/*                         var images = ["pg-mainslider.jpg","pg-mainslider2.jpg"];*/
+/*                         var images = ["Entrance-1.jpg","Pool-Villa-17.jpg"];*/
 /*             $(function () {*/
 /*                 var i = 0;*/
-/*                 $("#big-img").css("background-image", "url(http://www.transresortbali.com/po-content/po-upload/" + images[i] + ")");*/
+/*                 $("#big-img").css("background-image", "url(upload/" + images[i] + ")");*/
 /*                 setInterval(function () {*/
 /*                     i++;*/
 /*                     if (i == images.length) {*/
 /*                         i = 0;*/
 /*                     }*/
 /*                     $("#big-img").stop().animate({opacity: 1}, 2000, function(){*/
-/*                         $(this).css({'background-image': "url(http://www.transresortbali.com/po-content/po-upload/" + images[i] + ")"}).animate({opacity: 1},{duration:2000});*/
+/*                         $(this).css({'background-image': "url(upload/alampuisi/" + images[i] + ")"}).animate({opacity: 1},{duration:2000});*/
 /*                     });*/
 /*                 }, 8000);*/
 /*             });*/
