@@ -45,101 +45,109 @@ class __TwigTemplate_a719b9011cd4d0e985f791c555fb7f1d699b41d8f04454ddd906ddc35a3
         echo " layout-";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "layout", array()), "id", array()), "html", null, true);
         echo "\">
-     <!-- Start WOWSlider.com BODY section -->
-<div id=\"wowslider-container1\">
-<div class=\"ws_images\"><ul>
-        <li><img src=\"";
-        // line 18
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_10993.jpg");
-        echo "\" alt=\"IMG_1099-3\" title=\"IMG_1099-3\" id=\"wows1_0\"/></li>
-        <li><img src=\"";
-        // line 19
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2778.jpg");
-        echo "\" alt=\"_MG_2778\" title=\"_MG_2778\" id=\"wows1_1\"/></li>
-        <li><img src=\"";
-        // line 20
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_13443.jpg");
-        echo "\" alt=\"IMG_1344-3\" title=\"IMG_1344-3\" id=\"wows1_2\"/></li>
-        <li><img src=\"";
-        // line 21
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2409.jpg");
-        echo "\" alt=\"_MG_2409\" title=\"_MG_2409\" id=\"wows1_3\"/></li>
-        <li><a href=\"http://wowslider.com/vi\"><img src=\"";
-        // line 22
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_1130.jpg");
-        echo "\" alt=\"bootstrap slider\" title=\"IMG_1130\" id=\"wows1_4\"/></a></li>
-        <li><img src=\"";
-        // line 23
-        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2379.jpg");
-        echo "\" alt=\"_MG_2379\" title=\"_MG_2379\" id=\"wows1_5\"/></li>
-    </ul></div>
-<div class=\"ws_script\" style=\"position:absolute;left:-99%\"><a href=\"http://wowslider.com/vi\">slider</a> by WOWSlider.com v8.7</div>
-<div class=\"ws_shadow\"></div>
-</div>  
-<script type=\"text/javascript\" src=\"engine1/wowslider.js\"></script>
-<script type=\"text/javascript\" src=\"engine1/script.js\"></script>
-<!-- End WOWSlider.com BODY section -->
-        <!-- Header -->
         <header id=\"layout-header\" class=\"header-navbar\">
             <!-- Nav -->
             ";
-        // line 34
+        // line 17
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("nav"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 35
+        // line 18
         echo "        </header>
-
-
+        <!-- Start WOWSlider.com BODY section -->
+        <div id=\"wowslider-container1\">
+            <div class=\"ws_images\"><ul>
+                    <li><img src=\"";
+        // line 22
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_10993.jpg");
+        echo "\" alt=\"IMG_1099-3\" title=\"IMG_1099-3\" id=\"wows1_0\"/></li>
+                    <li><img src=\"";
+        // line 23
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2778.jpg");
+        echo "\" alt=\"_MG_2778\" title=\"_MG_2778\" id=\"wows1_1\"/></li>
+                    <li><img src=\"";
+        // line 24
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_13443.jpg");
+        echo "\" alt=\"IMG_1344-3\" title=\"IMG_1344-3\" id=\"wows1_2\"/></li>
+                    <li><img src=\"";
+        // line 25
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2409.jpg");
+        echo "\" alt=\"_MG_2409\" title=\"_MG_2409\" id=\"wows1_3\"/></li>
+                    <li><a href=\"http://wowslider.com/vi\"><img src=\"";
+        // line 26
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/img_1130.jpg");
+        echo "\" alt=\"bootstrap slider\" title=\"IMG_1130\" id=\"wows1_4\"/></a></li>
+                    <li><img src=\"";
+        // line 27
+        echo $this->env->getExtension('CMS')->themeFilter("assets/vendor/wowslider/data1/images/_mg_2379.jpg");
+        echo "\" alt=\"_MG_2379\" title=\"_MG_2379\" id=\"wows1_5\"/></li>
+                </ul>
+            </div>
+        <div class=\"ws_shadow\"></div>
+        </div>  
+        <!-- End WOWSlider.com BODY section -->
+        <!-- Header -->
         <!-- Content -->
         <div id=\"layout-content\">
             ";
-        // line 40
+        // line 36
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 41
+        // line 37
         echo "        </div>
 
         <!-- Mailing List -->
         <section id=\"layout-subscribe\" class=\"subscribe-form\">
             ";
-        // line 45
+        // line 41
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("subscribe"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 46
+        // line 42
         echo "        </section>
 
         <!-- Footer -->
         <footer id=\"layout-footer\">
             ";
-        // line 50
+        // line 46
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 47
         echo "        </footer>
 
         <!-- Scripts -->
         <script src=\"";
-        // line 54
+        // line 50
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/javascript/jquery.js", 1 => "assets/vendor/bootstrap/js/transition.js", 2 => "assets/vendor/bootstrap/js/alert.js", 3 => "assets/vendor/bootstrap/js/button.js", 4 => "assets/vendor/bootstrap/js/carousel.js", 5 => "assets/vendor/bootstrap/js/collapse.js", 6 => "assets/vendor/bootstrap/js/dropdown.js", 7 => "assets/vendor/bootstrap/js/modal.js", 8 => "assets/vendor/bootstrap/js/tooltip.js", 9 => "assets/vendor/bootstrap/js/popover.js", 10 => "assets/vendor/bootstrap/js/scrollspy.js", 11 => "assets/vendor/bootstrap/js/tab.js", 12 => "assets/vendor/bootstrap/js/affix.js", 13 => "assets/vendor/flat-ui/js/bootstrap-select.js", 14 => "assets/vendor/flat-ui/js/bootstrap-switch.js", 15 => "assets/vendor/flat-ui/js/flatui-checkbox.js", 16 => "assets/vendor/flat-ui/js/flatui-radio.js", 17 => "assets/vendor/flat-ui/js/jquery.tagsinput.js", 18 => "assets/vendor/flat-ui/js/jquery.placeholder.js", 19 => "assets/javascript/app.js", 20 => "assets/vendor/wowslider/engine1/wowslider.js", 21 => "assets/vendor/wowslider/engine1/script.js"));
-        // line 77
+        // line 73
         echo "\"></script>
 
         ";
-        // line 79
+        // line 75
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 80
+        // line 76
         echo "        ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 81
-        echo "
+        // line 77
+        echo "        <script>
+        window.onscroll = function() {myFunction()};
+
+        function myFunction() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                document.getElementById(\"brandlogo\").className = \"navbar-brand-scrolled\";
+                document.getElementById(\"layout-nav\").className = \"navbar-scrolled navbar-inverse-scrolled navbar-fixed-top\";
+            } else {
+                document.getElementById(\"brandlogo\").className = \"navbar-brand\";
+                document.getElementById(\"layout-nav\").className = \"navbar navbar-inverse navbar-fixed-top\";
+            }
+        }
+        </script>
     </body>
 </html>";
     }
@@ -156,7 +164,7 @@ class __TwigTemplate_a719b9011cd4d0e985f791c555fb7f1d699b41d8f04454ddd906ddc35a3
 
     public function getDebugInfo()
     {
-        return array (  142 => 81,  138 => 80,  131 => 79,  127 => 77,  125 => 54,  120 => 51,  116 => 50,  110 => 46,  106 => 45,  100 => 41,  98 => 40,  91 => 35,  87 => 34,  73 => 23,  69 => 22,  65 => 21,  61 => 20,  57 => 19,  53 => 18,  44 => 14,  40 => 12,  37 => 9,  34 => 8,  30 => 7,  24 => 4,  19 => 1,);
+        return array (  138 => 77,  134 => 76,  127 => 75,  123 => 73,  121 => 50,  116 => 47,  112 => 46,  106 => 42,  102 => 41,  96 => 37,  94 => 36,  82 => 27,  78 => 26,  74 => 25,  70 => 24,  66 => 23,  62 => 22,  56 => 18,  52 => 17,  44 => 14,  40 => 12,  37 => 9,  34 => 8,  30 => 7,  24 => 4,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -173,29 +181,25 @@ class __TwigTemplate_a719b9011cd4d0e985f791c555fb7f1d699b41d8f04454ddd906ddc35a3
 /*         ]|theme }}" rel="stylesheet">*/
 /*     </head>*/
 /*     <body class="page-{{ this.page.id }} layout-{{ this.layout.id }}">*/
-/*      <!-- Start WOWSlider.com BODY section -->*/
-/* <div id="wowslider-container1">*/
-/* <div class="ws_images"><ul>*/
-/*         <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_10993.jpg'|theme }}" alt="IMG_1099-3" title="IMG_1099-3" id="wows1_0"/></li>*/
-/*         <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2778.jpg'|theme }}" alt="_MG_2778" title="_MG_2778" id="wows1_1"/></li>*/
-/*         <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_13443.jpg'|theme }}" alt="IMG_1344-3" title="IMG_1344-3" id="wows1_2"/></li>*/
-/*         <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2409.jpg'|theme }}" alt="_MG_2409" title="_MG_2409" id="wows1_3"/></li>*/
-/*         <li><a href="http://wowslider.com/vi"><img src="{{ 'assets/vendor/wowslider/data1/images/img_1130.jpg'|theme }}" alt="bootstrap slider" title="IMG_1130" id="wows1_4"/></a></li>*/
-/*         <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2379.jpg'|theme }}" alt="_MG_2379" title="_MG_2379" id="wows1_5"/></li>*/
-/*     </ul></div>*/
-/* <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">slider</a> by WOWSlider.com v8.7</div>*/
-/* <div class="ws_shadow"></div>*/
-/* </div>  */
-/* <script type="text/javascript" src="engine1/wowslider.js"></script>*/
-/* <script type="text/javascript" src="engine1/script.js"></script>*/
-/* <!-- End WOWSlider.com BODY section -->*/
-/*         <!-- Header -->*/
 /*         <header id="layout-header" class="header-navbar">*/
 /*             <!-- Nav -->*/
 /*             {% partial "nav" %}*/
 /*         </header>*/
-/* */
-/* */
+/*         <!-- Start WOWSlider.com BODY section -->*/
+/*         <div id="wowslider-container1">*/
+/*             <div class="ws_images"><ul>*/
+/*                     <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_10993.jpg'|theme }}" alt="IMG_1099-3" title="IMG_1099-3" id="wows1_0"/></li>*/
+/*                     <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2778.jpg'|theme }}" alt="_MG_2778" title="_MG_2778" id="wows1_1"/></li>*/
+/*                     <li><img src="{{ 'assets/vendor/wowslider/data1/images/img_13443.jpg'|theme }}" alt="IMG_1344-3" title="IMG_1344-3" id="wows1_2"/></li>*/
+/*                     <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2409.jpg'|theme }}" alt="_MG_2409" title="_MG_2409" id="wows1_3"/></li>*/
+/*                     <li><a href="http://wowslider.com/vi"><img src="{{ 'assets/vendor/wowslider/data1/images/img_1130.jpg'|theme }}" alt="bootstrap slider" title="IMG_1130" id="wows1_4"/></a></li>*/
+/*                     <li><img src="{{ 'assets/vendor/wowslider/data1/images/_mg_2379.jpg'|theme }}" alt="_MG_2379" title="_MG_2379" id="wows1_5"/></li>*/
+/*                 </ul>*/
+/*             </div>*/
+/*         <div class="ws_shadow"></div>*/
+/*         </div>  */
+/*         <!-- End WOWSlider.com BODY section -->*/
+/*         <!-- Header -->*/
 /*         <!-- Content -->*/
 /*         <div id="layout-content">*/
 /*             {% page %}*/
@@ -239,6 +243,18 @@ class __TwigTemplate_a719b9011cd4d0e985f791c555fb7f1d699b41d8f04454ddd906ddc35a3
 /* */
 /*         {% framework extras %}*/
 /*         {% scripts %}*/
+/*         <script>*/
+/*         window.onscroll = function() {myFunction()};*/
 /* */
+/*         function myFunction() {*/
+/*             if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {*/
+/*                 document.getElementById("brandlogo").className = "navbar-brand-scrolled";*/
+/*                 document.getElementById("layout-nav").className = "navbar-scrolled navbar-inverse-scrolled navbar-fixed-top";*/
+/*             } else {*/
+/*                 document.getElementById("brandlogo").className = "navbar-brand";*/
+/*                 document.getElementById("layout-nav").className = "navbar navbar-inverse navbar-fixed-top";*/
+/*             }*/
+/*         }*/
+/*         </script>*/
 /*     </body>*/
 /* </html>*/
