@@ -28,8 +28,8 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
                             </a>
                             <ul class=\"dropdown-menu dropdown-lang\" role=\"menu\" aria-labelledby=\"dLabel\">
                                 <li><a href=\"javascript:void(0)\" class=\"sellang\" data-lang=\"gb\">English</a></li>
-                                <li><a href=\"javascript:void(0)\" class=\"sellang\" data-lang=\"id\">Indonesia</a></li>
-                                <li><a href=\"javascript:void(0)\" class=\"sellang\" data-lang=\"jp\">Japanese</a></li>
+                                <!-- <li><a href=\"javascript:void(0)\" class=\"sellang\" data-lang=\"id\">Indonesia</a></li> -->
+                                <!-- <li><a href=\"javascript:void(0)\" class=\"sellang\" data-lang=\"jp\">Japanese</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -102,8 +102,8 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 /*                             </a>*/
 /*                             <ul class="dropdown-menu dropdown-lang" role="menu" aria-labelledby="dLabel">*/
 /*                                 <li><a href="javascript:void(0)" class="sellang" data-lang="gb">English</a></li>*/
-/*                                 <li><a href="javascript:void(0)" class="sellang" data-lang="id">Indonesia</a></li>*/
-/*                                 <li><a href="javascript:void(0)" class="sellang" data-lang="jp">Japanese</a></li>*/
+/*                                 <!-- <li><a href="javascript:void(0)" class="sellang" data-lang="id">Indonesia</a></li> -->*/
+/*                                 <!-- <li><a href="javascript:void(0)" class="sellang" data-lang="jp">Japanese</a></li> -->*/
 /*                             </ul>*/
 /*                         </div>*/
 /*                     </div>*/

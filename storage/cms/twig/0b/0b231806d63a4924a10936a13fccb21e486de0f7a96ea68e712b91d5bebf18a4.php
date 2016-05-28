@@ -159,7 +159,10 @@ Alam Puisi Villa in Ubud, Bali.
             </div>
             <div class=\"home-slide-overview text-center hidden-xs\">
                 <div class=\"home-box-overview\">
-                    <div class=\"home-overview-title\"><a href=\"room-rates.html\">Our Accomodation</a></div>
+                    <div class=\"home-overview-title\"><a href=\"";
+        // line 135
+        echo url("/roomrates");
+        echo "\">Our Accomodation</a></div>
                 </div>
             </div>
             <div class=\"custom-navigation\">
@@ -208,8 +211,8 @@ Alam Puisi Villa in Ubud, Bali.
         echo "upload/medium/medium_stay-5-pay-4.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
-                        <h2 class=\"text-uppercase\">Stay 5 Pay 4</h2>
-                        <h2 class=\"text-uppercase h2-after\">Stay 5 Pay 4</h2>
+                        <h2 class=\"text-uppercase\">Advance Purchase</h2>
+                        <h2 class=\"text-uppercase h2-after\">Advance Purchase</h2>
                         <p>
                             &nbsp;start from IDR 10,299,000++ for five nights&nbsp;Booking Period : Immediately to 27...<br /><br />
                             <a href=\"specials-offers/stay-5-pay-4.html\" class=\"btn btn-trans text-uppercase\">Book Now</a>
@@ -223,8 +226,8 @@ Alam Puisi Villa in Ubud, Bali.
         echo "upload/medium/medium_family-deals.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
-                        <h2 class=\"text-uppercase\">Intimate Package</h2>
-                        <h2 class=\"text-uppercase h2-after\">Intimate Package</h2>
+                        <h2 class=\"text-uppercase\">Room Only</h2>
+                        <h2 class=\"text-uppercase h2-after\">Room Only</h2>
                         <p>
                             &nbsp;start from IDR 15,799,000++&nbsp;Booking Period: Immediately to 27 December...<br /><br />
                             <a href=\"specials-offers/intimate-package.html\" class=\"btn btn-trans text-uppercase\">Book Now</a>
@@ -381,7 +384,7 @@ Alam Puisi Villa in Ubud, Bali.
 
     public function getDebugInfo()
     {
-        return array (  361 => 293,  357 => 292,  341 => 279,  324 => 265,  307 => 251,  295 => 242,  268 => 218,  253 => 206,  238 => 194,  223 => 182,  208 => 170,  193 => 158,  172 => 140,  168 => 139,  157 => 131,  153 => 130,  149 => 129,  19 => 1,);
+        return array (  364 => 293,  360 => 292,  344 => 279,  327 => 265,  310 => 251,  298 => 242,  271 => 218,  256 => 206,  241 => 194,  226 => 182,  211 => 170,  196 => 158,  175 => 140,  171 => 139,  164 => 135,  157 => 131,  153 => 130,  149 => 129,  19 => 1,);
     }
 }
 /* <div class="header-book">*/
@@ -518,7 +521,7 @@ Alam Puisi Villa in Ubud, Bali.
 /*             </div>*/
 /*             <div class="home-slide-overview text-center hidden-xs">*/
 /*                 <div class="home-box-overview">*/
-/*                     <div class="home-overview-title"><a href="room-rates.html">Our Accomodation</a></div>*/
+/*                     <div class="home-overview-title"><a href="{{url('/roomrates')}}">Our Accomodation</a></div>*/
 /*                 </div>*/
 /*             </div>*/
 /*             <div class="custom-navigation">*/
@@ -555,8 +558,8 @@ Alam Puisi Villa in Ubud, Bali.
 /*                 <figure class="item effect-ruby">*/
 /*                     <img src="{{'upload/medium/medium_stay-5-pay-4.jpg'}}" alt="" />*/
 /*                     <figcaption>*/
-/*                         <h2 class="text-uppercase">Stay 5 Pay 4</h2>*/
-/*                         <h2 class="text-uppercase h2-after">Stay 5 Pay 4</h2>*/
+/*                         <h2 class="text-uppercase">Advance Purchase</h2>*/
+/*                         <h2 class="text-uppercase h2-after">Advance Purchase</h2>*/
 /*                         <p>*/
 /*                             &nbsp;start from IDR 10,299,000++ for five nights&nbsp;Booking Period : Immediately to 27...<br /><br />*/
 /*                             <a href="specials-offers/stay-5-pay-4.html" class="btn btn-trans text-uppercase">Book Now</a>*/
@@ -567,8 +570,8 @@ Alam Puisi Villa in Ubud, Bali.
 /*                 <figure class="item effect-ruby">*/
 /*                     <img src="{{'upload/medium/medium_family-deals.jpg'}}" alt="" />*/
 /*                     <figcaption>*/
-/*                         <h2 class="text-uppercase">Intimate Package</h2>*/
-/*                         <h2 class="text-uppercase h2-after">Intimate Package</h2>*/
+/*                         <h2 class="text-uppercase">Room Only</h2>*/
+/*                         <h2 class="text-uppercase h2-after">Room Only</h2>*/
 /*                         <p>*/
 /*                             &nbsp;start from IDR 15,799,000++&nbsp;Booking Period: Immediately to 27 December...<br /><br />*/
 /*                             <a href="specials-offers/intimate-package.html" class="btn btn-trans text-uppercase">Book Now</a>*/

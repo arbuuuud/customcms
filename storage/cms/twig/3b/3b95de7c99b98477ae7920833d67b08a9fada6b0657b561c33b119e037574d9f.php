@@ -84,7 +84,7 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
                 <div class=\"container\">
                     <div class=\"row\">
                         <div class=\"col-md-12 copy-text text-center\">
-                            <p>&copy; 2016 The Trans Resort Bali. All Rights Reserved. Website by <a href=\"http://www.mindimedia.com/\" target=\"_blank\">Mindimedia</a>.</p>                      
+                            <p>&copy; 2016 Alam Puisi. All Rights Reserved. Website by <a href=\"http://www.mindimedia.com/\" target=\"_blank\">Mindimedia</a>.</p>                      
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
 /*                 <div class="container">*/
 /*                     <div class="row">*/
 /*                         <div class="col-md-12 copy-text text-center">*/
-/*                             <p>&copy; 2016 The Trans Resort Bali. All Rights Reserved. Website by <a href="http://www.mindimedia.com/" target="_blank">Mindimedia</a>.</p>                      */
+/*                             <p>&copy; 2016 Alam Puisi. All Rights Reserved. Website by <a href="http://www.mindimedia.com/" target="_blank">Mindimedia</a>.</p>                      */
 /*                         </div>*/
 /*                     </div>*/
 /*                 </div>*/

@@ -1,4 +1,4 @@
-1464413921s:9304:"a:6:{s:5:"mtime";i:1464407120;s:7:"content";s:4561:"title = "Contact"
+1464419505s:9288:"a:6:{s:5:"mtime";i:1464418905;s:7:"content";s:4553:"title = "Contact"
 url = "/contact"
 layout = "category"
 is_hidden = 0
@@ -77,12 +77,12 @@ is_hidden = 0
                 var marker = new google.maps.Marker({
                     position: map.getCenter(),
                     map: map,
-                    title: 'The Trans Resort Bali',
+                    title: 'Example title',
                     icon: image
                 });
             }
             google.maps.event.addDomListener(window, 'load', initialize);
-        </script>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4484:"<div class="container-map">
+        </script>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Contact";s:3:"url";s:8:"/contact";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4476:"<div class="container-map">
     <div id="map_canvas"></div>
 </div>
 
@@ -156,7 +156,7 @@ is_hidden = 0
                 var marker = new google.maps.Marker({
                     position: map.getCenter(),
                     map: map,
-                    title: 'The Trans Resort Bali',
+                    title: 'Example title',
                     icon: image
                 });
             }
