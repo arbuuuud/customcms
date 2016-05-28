@@ -20,40 +20,21 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">
 <html>
     <head>
-        <!-- Your Basic Site Informations -->
-        <title>The Trans Resort is The Best Hotels in Seminyak - Bali</title>
-       
-
-        
-
-        <!--[if lt IE 9]>
-            <script src=\"http://www.transresortbali.com/po-content/alampuisi/js/html5shiv.js\"></script>
-              <script src=\"http://www.transresortbali.com/po-content/alampuisi/js/respond.js\"></script>
-        <![endif]-->
-
-        <!-- Favicons -->
-        <link rel=\"shortcut icon\" href=\"favicon.png\" />
-
-
-        <!-- <script src=\"https://www.google.com/recaptcha/api.js\"></script> -->
-
-    </head>
-    <head>
-        <title>Flat UI - ";
-        // line 24
+        <title>Alam Puisi - ";
+        // line 5
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "page", array()), "title", array()), "html", null, true);
         echo "</title>
         <meta name=\"author\" content=\"October CMS\">
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
         <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 27
+        // line 8
         echo $this->env->getExtension('CMS')->themeFilter("assets/themes/alampuisi/upload/logo.png");
         echo "\" />
          <meta charset=\"utf-8\" />
         <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
         <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />
         <meta name=\"robots\" content=\"index, follow\" />
-        <meta name=\"description\" content=\"Home - The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion.\" />
+        <meta name=\"description\" content=\"Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
         <meta name=\"keywords\" content=\"\" />
         <meta http-equiv=\"Copyright\" content=\"popojicms\" />
         <meta name=\"author\" content=\"Dwira Survivor\" />
@@ -79,38 +60,39 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
         <meta property=\"profile:first_name\" content=\"Facebook_First_Name\" /> <!-- Silahkan disesuaikan -->
         <meta property=\"profile:last_name\" content=\"Facebook_Last_Name\" /> <!-- Silahkan disesuaikan -->
         <meta property=\"profile:username\" content=\"Facebook_Username\" /> <!-- Silahkan disesuaikan -->
-        <meta property=\"og:title\" content=\"Home - The Trans Resort is The Best Hotels in Seminyak - Bali\" />
-        <meta property=\"og:description\" content=\"The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion.\" />
+        <meta property=\"og:title\" content=\"Home - Alam Puisi in Ubud\" />
+        <meta property=\"og:description\" content=\"Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
+        
         <meta property=\"og:image\" content=\"favicon.png\" />
         <meta property=\"og:url\" content=\"index.html\" />
-        <meta property=\"og:site_name\" content=\"The Trans Resort is The Best Hotels in Seminyak - Bali\" />
+        <meta property=\"og:site_name\" content=\"Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
         <meta property=\"fb:admins\" content=\"Facebook_ID\" /> <!-- Silahkan disesuaikan -->
 
         <meta name=\"twitter:card\" content=\"summary\" />  <!-- Card type jangan di ganti -->
-        <meta name=\"twitter:site\" content=\"The Trans Resort is The Best Hotels in Seminyak - Bali\" />
-        <meta name=\"twitter:title\" content=\"Home - The Trans Resort is The Best Hotels in Seminyak - Bali\" />
-        <meta name=\"twitter:description\" content=\"The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion.\" />
+        <meta name=\"twitter:site\" content=\"Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
+        <meta name=\"twitter:title\" content=\"Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
+        <meta name=\"twitter:description\" content=\"Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
         <meta name=\"twitter:creator\" content=\"Twitter_Username\" /> <!-- Silahkan disesuaikan -->
         <meta name=\"twitter:image:src\" content=\"favicon.png\" />
         <meta name=\"twitter:domain\" content=\"index.html\" />
 
-        <meta itemprop=\"name\" content=\"Home - The Trans Resort is The Best Hotels in Seminyak - Bali\" />
-        <meta itemprop=\"description\" content=\"The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion.\" />
+        <meta itemprop=\"name\" content=\"Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
+        <meta itemprop=\"description\" content=\"Alam Puisi in Ubud - Villas that Capture The Poetry of Nature.\" />
         <meta itemprop=\"image\" content=\"favicon.png\" />
 
         <!-- Mobile Specific Meta -->
         ";
-        // line 78
+        // line 60
         echo $this->env->getExtension('CMS')->assetsFunction('css');
         echo $this->env->getExtension('CMS')->displayBlock('styles');
-        // line 79
+        // line 61
         echo "        <!-- Stylesheets -->
 
 
         <link href=\"";
-        // line 82
+        // line 64
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/vendor/alampuisi/css/bootstrap.min.css", 1 => "assets/vendor/alampuisi/css/style.css", 2 => "assets/vendor/alampuisi/font-awesome/css/font-awesome.min.css", 3 => "assets/vendor/alampuisi/css/chosen.css", 4 => "assets/vendor/alampuisi/owl-carousel/owl.carousel.css", 5 => "assets/vendor/alampuisi/owl-carousel/owl.theme.css", 6 => "assets/vendor/alampuisi/css/prettyPhoto.css", 7 => "assets/vendor/alampuisi/css/jquery.scrollbar.css", 8 => "assets/vendor/alampuisi/css/lightslider.css", 9 => "assets/vendor/alampuisi/css/responsive-menu.css"));
-        // line 93
+        // line 75
         echo "\" rel=\"stylesheet\">
 
         <link rel=\"shortcut icon\" href=\"favicon.png\" />
@@ -122,29 +104,29 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
         <div class=\"wrapper scrollbar-dynamic\">
         <header class=\"big-img\" id=\"big-img\" style=\"background-image: url(\"full_room-celebrity-suite-bedroom\"; transition: 0.15s;\">
             ";
-        // line 103
+        // line 85
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("nav"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 104
+        // line 86
         echo "        </header>
 
 
         <!-- Content -->
             ";
-        // line 108
+        // line 90
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 109
+        // line 91
         echo "
 
         <!-- Footer -->
         <footer>
             ";
-        // line 113
+        // line 95
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 114
+        // line 96
         echo "        </footer>
         </div>
 
@@ -153,23 +135,23 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
         <!-- Scripts -->
 
         <script src=\"";
-        // line 121
+        // line 103
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/vendor/alampuisi/js/modernizr.custom.js", 1 => "assets/vendor/alampuisi/js/jquery.js", 2 => "assets/vendor/alampuisi/js/bootstrap.min.js", 3 => "assets/vendor/alampuisi/js/jquery-scrolltofixed-min.js", 4 => "assets/vendor/alampuisi/js/chosen.jquery.min.js", 5 => "assets/vendor/alampuisi/js/datepicker.js", 6 => "assets/vendor/alampuisi/js/bootstrap-timepicker.min.js", 7 => "assets/vendor/alampuisi/owl-carousel/owl.carousel.js", 8 => "assets/vendor/alampuisi/js/toucheffects.js", 9 => "assets/vendor/alampuisi/js/jquery.prettyPhoto.js", 10 => "assets/vendor/alampuisi/js/jquery.scrollbar.min.js", 11 => "assets/vendor/alampuisi/js/lightslider.min.js", 12 => "assets/vendor/alampuisi/js/responsive-menu.min.js", 13 => "assets/vendor/alampuisi/js/main.js"));
-        // line 136
+        // line 118
         echo "\"></script>
         ";
-        // line 137
+        // line 119
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 138
+        // line 120
         echo "        ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 139
+        // line 121
         echo "             <script type=\"text/javascript\">
                         var images = [\"Entrance-1.jpg\",\"Pool-Villa-17.jpg\"];
             \$(function () {
@@ -203,33 +185,14 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 
     public function getDebugInfo()
     {
-        return array (  173 => 139,  169 => 138,  162 => 137,  159 => 136,  157 => 121,  148 => 114,  144 => 113,  138 => 109,  136 => 108,  130 => 104,  126 => 103,  114 => 93,  112 => 82,  107 => 79,  104 => 78,  50 => 27,  44 => 24,  19 => 1,);
+        return array (  155 => 121,  151 => 120,  144 => 119,  141 => 118,  139 => 103,  130 => 96,  126 => 95,  120 => 91,  118 => 90,  112 => 86,  108 => 85,  96 => 75,  94 => 64,  89 => 61,  86 => 60,  31 => 8,  25 => 5,  19 => 1,);
     }
 }
 /* <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">*/
 /* <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">*/
 /* <html>*/
 /*     <head>*/
-/*         <!-- Your Basic Site Informations -->*/
-/*         <title>The Trans Resort is The Best Hotels in Seminyak - Bali</title>*/
-/*        */
-/* */
-/*         */
-/* */
-/*         <!--[if lt IE 9]>*/
-/*             <script src="http://www.transresortbali.com/po-content/alampuisi/js/html5shiv.js"></script>*/
-/*               <script src="http://www.transresortbali.com/po-content/alampuisi/js/respond.js"></script>*/
-/*         <![endif]-->*/
-/* */
-/*         <!-- Favicons -->*/
-/*         <link rel="shortcut icon" href="favicon.png" />*/
-/* */
-/* */
-/*         <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->*/
-/* */
-/*     </head>*/
-/*     <head>*/
-/*         <title>Flat UI - {{ this.page.title }}</title>*/
+/*         <title>Alam Puisi - {{ this.page.title }}</title>*/
 /*         <meta name="author" content="October CMS">*/
 /*         <meta name="viewport" content="width=device-width, initial-scale=1.0">*/
 /*         <link rel="icon" type="image/png" href="{{ 'assets/themes/alampuisi/upload/logo.png'|theme }}" />*/
@@ -237,7 +200,7 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />*/
 /*         <meta http-equiv="X-UA-Compatible" content="IE=edge" />*/
 /*         <meta name="robots" content="index, follow" />*/
-/*         <meta name="description" content="Home - The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion." />*/
+/*         <meta name="description" content="Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
 /*         <meta name="keywords" content="" />*/
 /*         <meta http-equiv="Copyright" content="popojicms" />*/
 /*         <meta name="author" content="Dwira Survivor" />*/
@@ -263,23 +226,24 @@ class __TwigTemplate_e7d7345c02bb99fabedb80e8c88921ce6a97cbc48faa866941cda5d861a
 /*         <meta property="profile:first_name" content="Facebook_First_Name" /> <!-- Silahkan disesuaikan -->*/
 /*         <meta property="profile:last_name" content="Facebook_Last_Name" /> <!-- Silahkan disesuaikan -->*/
 /*         <meta property="profile:username" content="Facebook_Username" /> <!-- Silahkan disesuaikan -->*/
-/*         <meta property="og:title" content="Home - The Trans Resort is The Best Hotels in Seminyak - Bali" />*/
-/*         <meta property="og:description" content="The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion." />*/
+/*         <meta property="og:title" content="Home - Alam Puisi in Ubud" />*/
+/*         <meta property="og:description" content="Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
+/*         */
 /*         <meta property="og:image" content="favicon.png" />*/
 /*         <meta property="og:url" content="index.html" />*/
-/*         <meta property="og:site_name" content="The Trans Resort is The Best Hotels in Seminyak - Bali" />*/
+/*         <meta property="og:site_name" content="Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
 /*         <meta property="fb:admins" content="Facebook_ID" /> <!-- Silahkan disesuaikan -->*/
 /* */
 /*         <meta name="twitter:card" content="summary" />  <!-- Card type jangan di ganti -->*/
-/*         <meta name="twitter:site" content="The Trans Resort is The Best Hotels in Seminyak - Bali" />*/
-/*         <meta name="twitter:title" content="Home - The Trans Resort is The Best Hotels in Seminyak - Bali" />*/
-/*         <meta name="twitter:description" content="The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion." />*/
+/*         <meta name="twitter:site" content="Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
+/*         <meta name="twitter:title" content="Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
+/*         <meta name="twitter:description" content="Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
 /*         <meta name="twitter:creator" content="Twitter_Username" /> <!-- Silahkan disesuaikan -->*/
 /*         <meta name="twitter:image:src" content="favicon.png" />*/
 /*         <meta name="twitter:domain" content="index.html" />*/
 /* */
-/*         <meta itemprop="name" content="Home - The Trans Resort is The Best Hotels in Seminyak - Bali" />*/
-/*         <meta itemprop="description" content="The Trans Resort Bali is The Best Hotels in Seminyak - Bali and a gentle walk to the trendy dining, entertainment and fashion venues at your discretion." />*/
+/*         <meta itemprop="name" content="Home - Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
+/*         <meta itemprop="description" content="Alam Puisi in Ubud - Villas that Capture The Poetry of Nature." />*/
 /*         <meta itemprop="image" content="favicon.png" />*/
 /* */
 /*         <!-- Mobile Specific Meta -->*/

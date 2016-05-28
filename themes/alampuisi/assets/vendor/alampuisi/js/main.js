@@ -5,12 +5,23 @@ jQuery(document).ready(function($){
 		$back_to_top = $('.cd-top');
 
 	$(window).scroll(function(){
-		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+		( $(this).scrollTop() > offset ) ?  menuScrollUp():menuScrollDown(); 
+
 		if( $(this).scrollTop() > offset_opacity ) { 
 			$back_to_top.addClass('cd-fade-out');
 		}
 	});
+	function menuScrollUp(){
+		$back_to_top.addClass('cd-is-visible');
+		// $('#menuforscroll').removeClass('hidden');
+		// $('#menuhomeforscroll').addClass('hidden');
 
+	}
+	function menuScrollDown(){
+		$back_to_top.removeClass('cd-is-visible cd-fade-out');
+		// $('#menuforscroll').addClass('hidden');
+		// $('#menuhomeforscroll').removeClass('hidden')
+	}
 	$back_to_top.on('click', function(event){
 		event.preventDefault();
 		$('body,html').animate({
@@ -79,8 +90,8 @@ jQuery(document).ready(function($){
 	var winWidth = $(window).width();
 	if (winWidth > 767) {
 		$('.header-menu').scrollToFixed({
-			preFixed: function() { $(this).css('background-color', '#000000'); },
-			postFixed: function() { $(this).css('background-color', 'rgba(0, 0, 0, 0.8)'); }
+			preFixed: function() { $(this).css('background-color', '#4f402f'); },
+			postFixed: function() { $(this).css('background-color', 'rgba(79, 64, 47, 0.8)'); }
 		});
 	}
 });
@@ -129,6 +140,25 @@ jQuery(document).ready(function($){
 
 	$(".home-slide-right").click(function(){
 		homeslide.trigger('owl.next');
+	})
+
+	var tripadvisorslide = $("#tripadvisor-slide-box");
+	tripadvisorslide.owlCarousel({
+		navigation : false,
+		pagination: false,
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem: true,
+		responsive: true,
+		autoPlay: true
+	});
+
+	$(".tripadvisorslide-slide-left").click(function(){
+		tripadvisorslide.trigger('owl.prev');
+	})
+
+	$(".tripadvisorslide-slide-right").click(function(){
+		tripadvisorslide.trigger('owl.next');
 	})
 });
 

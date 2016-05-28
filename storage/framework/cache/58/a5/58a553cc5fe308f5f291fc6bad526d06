@@ -1,4 +1,4 @@
-1464010331s:8575:"a:6:{s:5:"mtime";i:1463447243;s:7:"content";s:4199:"title = "Project"
+1464413921s:8595:"a:6:{s:5:"mtime";i:1464340673;s:7:"content";s:4209:"title = "Project"
 url = "/portfolio/project"
 layout = "default"
 ==
@@ -14,6 +14,7 @@ layout = "default"
     ]|theme }}"></script>
     <script>
         $(document).ready(function() {
+
             $('#projectImages').slick({
                 dots: true,
                 infinite: true,
@@ -31,7 +32,7 @@ layout = "default"
 
 <section id="layout-title">
     <div class="container">
-        <h3>Sample Project</h3>
+        <h3>{{title}}Sample Project</h3>
     </div>
 </section>
 
@@ -103,7 +104,7 @@ layout = "default"
         </li>
     </ul>
 
-</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:7:"Project";s:3:"url";s:18:"/portfolio/project";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4131:"{% put styles %}
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:4:{s:5:"title";s:7:"Project";s:3:"url";s:18:"/portfolio/project";s:6:"layout";s:7:"default";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:4141:"{% put styles %}
     <link href="{{ [
         'assets/vendor/slick/slick.css',
     ]|theme }}" rel="stylesheet">
@@ -114,6 +115,7 @@ layout = "default"
     ]|theme }}"></script>
     <script>
         $(document).ready(function() {
+
             $('#projectImages').slick({
                 dots: true,
                 infinite: true,
@@ -131,7 +133,7 @@ layout = "default"
 
 <section id="layout-title">
     <div class="container">
-        <h3>Sample Project</h3>
+        <h3>{{title}}Sample Project</h3>
     </div>
 </section>
 

@@ -90,9 +90,50 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 <div class=\"col-md-12\">
                     <div class=\"row text-center\">
                         <div class=\"home-txt-top-border\">&nbsp;</div>
-                        <div class=\"home-txt-top text-uppercase\">The Trans Resort Bali</div>
+                        <div class=\"home-txt-top text-uppercase\">Villas that Capture The Poetry of Nature </div>
                         <div class=\"home-txt-top-border\">&nbsp;</div>
-<p>Situated in the middle of the lively and stylish area of Seminyak, The Trans Resort Bali offers a luxurious and elegant getaway with an outdoor swimming pool, on-site spa and wellness centre, free Wi-Fi access, and free on-site private parking for guests who drive. This property also offers free scheduled shuttle service to Seminyak Square Shopping Centre which is only a 10-minute drive away.<br /><br />It takes a 15-minute drive from the property to the famed Potato Head Beach Club, and Double Six Beach. The iconic Tanah Lot Temple is reachable within a 45-minute drive. Getting to Bali Denpasar International Airport will take around 30 minutes by car.<br /><br />Accessible by lifts, the modern and elegantly designed rooms at The Trans Resort Bali are all air-conditioned. Each one is fitted with a flat-screen cable TV, an iPod dock, wardrobe, personal safe, minibar, and an electric kettle. The en suite bathroom features bath and shower facility and free luxurious toiletries. Fresh towels and linen are provided in the room. Guests can enjoy a pool view from the balcony.<br /><br />The 24-hour front desk with concierge service can help guests with laundry and dry cleaning requests, organising airport transfer service, and babysitting service at additional charges. The property also offers meeting/banquet facility, a tour desk, luggage storage, and safety deposit box.<br /><br />The on-site The Restaurant serves a range of international dishes. Alternatively guests can order in from room service or explore the surrounding area where many restaurants and eateries can be found just a 5-minute walk away.</p>
+                        <p>
+                            The Alam Pusisi Villas – like the name implies in the original Indonesian – are villas inspired by the surrounding natural splendor of Bali and the esteemed cultural nuances for which the Island is world-renowned.
+                            <br/>
+                            <br/>
+
+Managed by the Alam Hotel Group (AHG) and located in the community of Banjar Sembuwuk in the Village of Pejeng in Ubud, Central Bali – Alam Puisi Villas is comprised of 27 separate villas, each with its own separate pool and a bale bengong (meditation pavilion).
+                            <br/>
+                            <br/>
+
+Reflecting the inspiring and transformative nature of Alam Puisi Villa is a dedicated yoga center capable of accommodating 100 participants that overlooks the calming vista of verdant terraced rice fields. Nearby, a Balinese Spa offers pampering and well-being therapies guaranteed to transport guests to a more blissful time and place. 
+                            <br/>
+                            <br/>
+
+At Alam Puisi Villas we nourish both the soul and the body. Balinese cooking classes promise the opportunity to recall, revisit and re-savor your Balinese holiday months and years into the future around your family dinner table. But while you’re still in Bali, food at the restaurant overlooking the rice fields offers a range of international selections with a heavy emphasis on the succulent and spice-filled specialties, such a crispy duck cooked in the time-honored tradition of the Balinese Paon.
+                            <br/>
+                            <br/>
+
+Swaying tropical palms, the light of the silvery moon and the beckoning sound of gamelans orchestras carried on the night breeze are all hallmarks of any stay at the Alam Puisi Villas. Magical Balinese dance and musical performances are just a short walk or drive away from the villas, forming a “must do” part of any stay in our Balinese community.
+                            <br/>
+                            <br/>
+
+After a restful night and a relaxing breakfast, the ever-attentive family of workers are eager to share their tropical paradise and unique Bali-Hindu culture via visits to ancient temples, traditional villages and breathtaking natural panoramas – all only a short sojourn away from your home-base at the Alam Puisi Villa.
+                            <br/>
+                            <br/>
+
+It is a long-standing Balinese tradition to take the simplest of tasks, perform each with exceptional care and attention to detail, and then present them as reverential offerings to the Gods.
+                            <br/>
+                            <br/>
+
+Similarly, the ultimate aim of the Alam Hotel Group – a Balinese-owned and managed company – is to welcome each guest as a added member of the family and to lovingly share the best of the “Island of the Gods” with our new brothers and sisters from around the world.
+                            <br/>
+                            <br/>
+
+
+Some call it poetry.
+We call it our home
+                            <br/>
+                            <br/>
+
+Alam Puisi Villa in Ubud, Bali.
+
+                        </p>
 <p><a class=\"btn btn-trans btn-trans-text-brown text-uppercase\" href=\"about-us.html\">More About Us</a></p>                  
 </div>
                 </div>
@@ -104,36 +145,37 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
         <div class=\"row\">
             <div id=\"home-slide-box\" class=\"owl-carousel owl-theme\">
                 <div class=\"item\"><img src=\"";
-        // line 88
-        echo "upload/home-slide-1.jpg";
+        // line 129
+        echo "upload/alampuisi/slidehome/Pool-Villa-4.jpg";
         echo "\" /></div>
                 <div class=\"item\"><img src=\"";
-        // line 89
-        echo "upload/pg-homeslide2.jpg";
+        // line 130
+        echo "upload/alampuisi/slidehome/Pool-Villa-12.jpg";
         echo "\" /></div>
                 <div class=\"item\"><img src=\"";
-        // line 90
-        echo "upload/pg-homeslide3.jpg";
+        // line 131
+        echo "upload/alampuisi/slidehome/Pool-Villa-7.jpg";
         echo "\" /></div>
             </div>
             <div class=\"home-slide-overview text-center hidden-xs\">
                 <div class=\"home-box-overview\">
-                    <div class=\"home-overview-title\"><a href=\"room-rates.html\">Our Room</a></div>
+                    <div class=\"home-overview-title\"><a href=\"room-rates.html\">Our Accomodation</a></div>
                 </div>
             </div>
             <div class=\"custom-navigation\">
                 <a class=\"navigation-left home-slide-left\"><img src=\"";
-        // line 98
+        // line 139
         echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png";
         echo "\" /></a>
                 <a class=\"navigation-right home-slide-right\"><img src=\"";
-        // line 99
+        // line 140
         echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png";
         echo "\" /></a>
             </div>
         </div>
     </div>
 
+    <div class=\"container-fluid main-ruler\">&nbsp;</div>
     <div class=\"container home-special-offers\">
         <div class=\"row\">
             <div class=\"col-md-12\">
@@ -147,7 +189,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
             <div id=\"home-special-offers-box\" class=\"owl-carousel owl-theme grid\">
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 116
+        // line 158
         echo "upload/medium/medium_unbeatable-deal.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -162,7 +204,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 </figure>
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 128
+        // line 170
         echo "upload/medium/medium_stay-5-pay-4.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -177,7 +219,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 </figure>
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 140
+        // line 182
         echo "upload/medium/medium_family-deals.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -192,7 +234,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 </figure>
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 152
+        // line 194
         echo "upload/medium/medium_TTRB-FINAL-ARTWORK-PROVIP-PACKAGE-TTRB-20-APRIL-2016-revised-1-LR-01.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -207,7 +249,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 </figure>
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 164
+        // line 206
         echo "upload/medium/medium_advance-purchase.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -222,7 +264,7 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
                 </figure>
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
-        // line 176
+        // line 218
         echo "upload/medium/medium_last-minute-promo.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
@@ -243,96 +285,84 @@ class __TwigTemplate_0327e9fb44e100464fc481310bf6e9ae3d08097a9303d310d2caaa02509
         </div>
     </div>
 
-    <div class=\"container-fluid main-ruler\">&nbsp;</div>
-
-    <div class=\"container home-event\">
-        <div class=\"row\">
-            <div class=\"col-md-12\">
-                <div class=\"main-head-title\">Event</div>
-                <div class=\"thin-border\">__</div>
-            </div>
-        </div>
-        <div class=\"row home-event-list\">
-                        <div class=\"col-md-6\">
-                <div class=\"media\">
-                    <div class=\"media-left\">
-                        <div class=\"media-date\">
-                            <div class=\"day\">2</div>
-                            <div class=\"month text-uppercase\">Feb</div>
-                        </div>
-                    </div>
-                    <div class=\"media-body\">
-                        <a href=\"detailpost/the-seven-stars-luxury-hospitality-and-lifestyle-awards.html\"><h4 class=\"media-heading\">The Seven Stars Luxury Hospitality and Lifestyle Awards</h4></a>
-                        The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the...
-                    </div>
-                </div>
-            </div>
-            <div class=\"col-md-6\">
-                <div class=\"media\">
-                    <div class=\"media-left\">
-                        <div class=\"media-date\">
-                            <div class=\"day\">2</div>
-                            <div class=\"month text-uppercase\">Feb</div>
-                        </div>
-                    </div>
-                    <div class=\"media-body\">
-                        <a href=\"detailpost/miss-bali-tropix.html\"><h4 class=\"media-heading\">Miss Bali Tropix</h4></a>
-                        SATURDAY, 26 SEPTEMBER 2015
-Miss Bali Tropix official &ldquo;Ties and...
-                    </div>
-                </div>
-            </div>
-            <div class=\"clearfix\"></div>
-            <div class=\"col-md-12 text-uppercase text-center link-event\">
-                <a href=\"category/event.html\">Read All Event</a>
-            </div>
-        </div>
-    </div>
 
     <div class=\"container-fluid home-gallery main-ruler\">
-        <div class=\"container\">
-            <div class=\"row\">
-                <div class=\"col-md-12\">
-                    <div class=\"main-head-title\">Gallery</div>
-                    <div class=\"thin-border\">__</div>
+        <div class=\"row\">
+            <div class=\"row home-event-list\">
+                <div class=\"col-md-5\">
+                    <img src=\"";
+        // line 242
+        echo url("/themes/alampuisi/assets/vendor/alampuisi/images/tripadvisor.png");
+        echo "\" class=\"img-responsive tripadvisor-logo-img\"/>
                 </div>
-            </div>
-            <div class=\"row home-gallery-list\">
-                <div class=\"col-md-3 col-sm-6 col-xs-6 home-gal-box-img\">
-                    <a href=\"";
+                <div class=\"tripadvisor-right-box  col-md-7\">
+                    <div class=\"tripadvisor-slide\">
+                        <div class=\"row\">
+                            <div id=\"tripadvisor-slide-box\" class=\"owl-carousel owl-theme\">
+                                <div class=\"item\">
+                                        <div class=\"row\">
+                                            <div class=\"col-sm-3 text-center\">
+                                                <img src=\"";
         // line 251
-        echo "upload/full_presidential-villa_bedroom.jpg";
-        echo "\" rel=\"prettyPhoto[pp_gal]\"><img src=\"";
-        echo "upload/medium/medium_full_presidential-villa_bedroom.jpg";
-        echo "\" class=\"img-responsive\" /></a>
-                </div>
-                    <div class=\"col-md-3 col-sm-6 col-xs-6 home-gal-box-img\">
-                    <a href=\"";
-        // line 254
-        echo "upload/full_room-celebrity-suite-bedroom.jpg";
-        echo "\" rel=\"prettyPhoto[pp_gal]\"><img src=\"";
-        echo "upload/medium/medium_full_room-celebrity-suite-bedroom.jpg";
-        echo "\" class=\"img-responsive\" /></a>
-                </div>
-                <div class=\"col-md-3 col-sm-6 col-xs-6 home-gal-box-img\">
-                    <a href=\"";
-        // line 257
-        echo "upload/full_presidential-villa_livingroom.jpg";
-        echo "\" rel=\"prettyPhoto[pp_gal]\"><img src=\"";
-        echo "upload/medium/medium_full_presidential-villa_livingroom.jpg";
-        echo "\" class=\"img-responsive\" /></a>
-                </div>
-                <div class=\"col-md-3 col-sm-6 col-xs-6 home-gal-box-img\">
-                    <a href=\"";
-        // line 260
-        echo "upload/full_room-premier-room-twin-bed.jpg";
-        echo "\" rel=\"prettyPhoto[pp_gal]\"><img src=\"";
-        echo "upload/medium/medium_full_room-premier-room-twin-bed.jpg";
-        echo "\" class=\"img-responsive\" /></a>
-                </div>
-                <div class=\"clearfix\"></div>
-                <div class=\"col-md-12 text-uppercase text-center link-event\">
-                    <a href=\"album.html\">See More</a>
+        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
+        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
+                                                Clair L
+                                                <br/>
+                                                London, United Kingdom
+                                            </div>    
+                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
+                                            ***** via mobile<br/>
+                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                            </div>    
+                                        </div>
+                                </div>
+                                <div class=\"item\">
+                                        <div class=\"row\">
+                                            <div class=\"col-sm-3 text-center\">
+                                                <img src=\"";
+        // line 265
+        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
+        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
+                                                Clair L
+                                                <br/>
+                                                London, United Kingdom
+                                            </div>    
+                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
+                                            ***** via mobile<br/>
+                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                            </div>    
+                                        </div>
+                                </div>
+                                <div class=\"item\">
+                                        <div class=\"row\">
+                                            <div class=\"col-sm-3 text-center\">
+                                                <img src=\"";
+        // line 279
+        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
+        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
+                                                Clair L
+                                                <br/>
+                                                London, United Kingdom
+                                            </div>    
+                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
+                                            ***** via mobile<br/>
+                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                            </div>    
+                                        </div>
+                                </div>
+                            </div>
+                            <div class=\"custom-navigation\">
+                                <a class=\"navigation-left home-slide-left\"><img src=\"";
+        // line 292
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png";
+        echo "\" /></a>
+                                <a class=\"navigation-right home-slide-right\"><img src=\"";
+        // line 293
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png";
+        echo "\" /></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -351,7 +381,7 @@ Miss Bali Tropix official &ldquo;Ties and...
 
     public function getDebugInfo()
     {
-        return array (  328 => 260,  320 => 257,  312 => 254,  304 => 251,  226 => 176,  211 => 164,  196 => 152,  181 => 140,  166 => 128,  151 => 116,  131 => 99,  127 => 98,  116 => 90,  112 => 89,  108 => 88,  19 => 1,);
+        return array (  361 => 293,  357 => 292,  341 => 279,  324 => 265,  307 => 251,  295 => 242,  268 => 218,  253 => 206,  238 => 194,  223 => 182,  208 => 170,  193 => 158,  172 => 140,  168 => 139,  157 => 131,  153 => 130,  149 => 129,  19 => 1,);
     }
 }
 /* <div class="header-book">*/
@@ -428,9 +458,50 @@ Miss Bali Tropix official &ldquo;Ties and...
 /*                 <div class="col-md-12">*/
 /*                     <div class="row text-center">*/
 /*                         <div class="home-txt-top-border">&nbsp;</div>*/
-/*                         <div class="home-txt-top text-uppercase">The Trans Resort Bali</div>*/
+/*                         <div class="home-txt-top text-uppercase">Villas that Capture The Poetry of Nature </div>*/
 /*                         <div class="home-txt-top-border">&nbsp;</div>*/
-/* <p>Situated in the middle of the lively and stylish area of Seminyak, The Trans Resort Bali offers a luxurious and elegant getaway with an outdoor swimming pool, on-site spa and wellness centre, free Wi-Fi access, and free on-site private parking for guests who drive. This property also offers free scheduled shuttle service to Seminyak Square Shopping Centre which is only a 10-minute drive away.<br /><br />It takes a 15-minute drive from the property to the famed Potato Head Beach Club, and Double Six Beach. The iconic Tanah Lot Temple is reachable within a 45-minute drive. Getting to Bali Denpasar International Airport will take around 30 minutes by car.<br /><br />Accessible by lifts, the modern and elegantly designed rooms at The Trans Resort Bali are all air-conditioned. Each one is fitted with a flat-screen cable TV, an iPod dock, wardrobe, personal safe, minibar, and an electric kettle. The en suite bathroom features bath and shower facility and free luxurious toiletries. Fresh towels and linen are provided in the room. Guests can enjoy a pool view from the balcony.<br /><br />The 24-hour front desk with concierge service can help guests with laundry and dry cleaning requests, organising airport transfer service, and babysitting service at additional charges. The property also offers meeting/banquet facility, a tour desk, luggage storage, and safety deposit box.<br /><br />The on-site The Restaurant serves a range of international dishes. Alternatively guests can order in from room service or explore the surrounding area where many restaurants and eateries can be found just a 5-minute walk away.</p>*/
+/*                         <p>*/
+/*                             The Alam Pusisi Villas – like the name implies in the original Indonesian – are villas inspired by the surrounding natural splendor of Bali and the esteemed cultural nuances for which the Island is world-renowned.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* Managed by the Alam Hotel Group (AHG) and located in the community of Banjar Sembuwuk in the Village of Pejeng in Ubud, Central Bali – Alam Puisi Villas is comprised of 27 separate villas, each with its own separate pool and a bale bengong (meditation pavilion).*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* Reflecting the inspiring and transformative nature of Alam Puisi Villa is a dedicated yoga center capable of accommodating 100 participants that overlooks the calming vista of verdant terraced rice fields. Nearby, a Balinese Spa offers pampering and well-being therapies guaranteed to transport guests to a more blissful time and place. */
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* At Alam Puisi Villas we nourish both the soul and the body. Balinese cooking classes promise the opportunity to recall, revisit and re-savor your Balinese holiday months and years into the future around your family dinner table. But while you’re still in Bali, food at the restaurant overlooking the rice fields offers a range of international selections with a heavy emphasis on the succulent and spice-filled specialties, such a crispy duck cooked in the time-honored tradition of the Balinese Paon.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* Swaying tropical palms, the light of the silvery moon and the beckoning sound of gamelans orchestras carried on the night breeze are all hallmarks of any stay at the Alam Puisi Villas. Magical Balinese dance and musical performances are just a short walk or drive away from the villas, forming a “must do” part of any stay in our Balinese community.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* After a restful night and a relaxing breakfast, the ever-attentive family of workers are eager to share their tropical paradise and unique Bali-Hindu culture via visits to ancient temples, traditional villages and breathtaking natural panoramas – all only a short sojourn away from your home-base at the Alam Puisi Villa.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* It is a long-standing Balinese tradition to take the simplest of tasks, perform each with exceptional care and attention to detail, and then present them as reverential offerings to the Gods.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* Similarly, the ultimate aim of the Alam Hotel Group – a Balinese-owned and managed company – is to welcome each guest as a added member of the family and to lovingly share the best of the “Island of the Gods” with our new brothers and sisters from around the world.*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* */
+/* Some call it poetry.*/
+/* We call it our home*/
+/*                             <br/>*/
+/*                             <br/>*/
+/* */
+/* Alam Puisi Villa in Ubud, Bali.*/
+/* */
+/*                         </p>*/
 /* <p><a class="btn btn-trans btn-trans-text-brown text-uppercase" href="about-us.html">More About Us</a></p>                  */
 /* </div>*/
 /*                 </div>*/
@@ -441,13 +512,13 @@ Miss Bali Tropix official &ldquo;Ties and...
 /*     <div class="container-fluid home-slide">*/
 /*         <div class="row">*/
 /*             <div id="home-slide-box" class="owl-carousel owl-theme">*/
-/*                 <div class="item"><img src="{{'upload/home-slide-1.jpg'}}" /></div>*/
-/*                 <div class="item"><img src="{{'upload/pg-homeslide2.jpg'}}" /></div>*/
-/*                 <div class="item"><img src="{{'upload/pg-homeslide3.jpg'}}" /></div>*/
+/*                 <div class="item"><img src="{{'upload/alampuisi/slidehome/Pool-Villa-4.jpg'}}" /></div>*/
+/*                 <div class="item"><img src="{{'upload/alampuisi/slidehome/Pool-Villa-12.jpg'}}" /></div>*/
+/*                 <div class="item"><img src="{{'upload/alampuisi/slidehome/Pool-Villa-7.jpg'}}" /></div>*/
 /*             </div>*/
 /*             <div class="home-slide-overview text-center hidden-xs">*/
 /*                 <div class="home-box-overview">*/
-/*                     <div class="home-overview-title"><a href="room-rates.html">Our Room</a></div>*/
+/*                     <div class="home-overview-title"><a href="room-rates.html">Our Accomodation</a></div>*/
 /*                 </div>*/
 /*             </div>*/
 /*             <div class="custom-navigation">*/
@@ -457,6 +528,7 @@ Miss Bali Tropix official &ldquo;Ties and...
 /*         </div>*/
 /*     </div>*/
 /* */
+/*     <div class="container-fluid main-ruler">&nbsp;</div>*/
 /*     <div class="container home-special-offers">*/
 /*         <div class="row">*/
 /*             <div class="col-md-12">*/
@@ -548,76 +620,66 @@ Miss Bali Tropix official &ldquo;Ties and...
 /*         </div>*/
 /*     </div>*/
 /* */
-/*     <div class="container-fluid main-ruler">&nbsp;</div>*/
-/* */
-/*     <div class="container home-event">*/
-/*         <div class="row">*/
-/*             <div class="col-md-12">*/
-/*                 <div class="main-head-title">Event</div>*/
-/*                 <div class="thin-border">__</div>*/
-/*             </div>*/
-/*         </div>*/
-/*         <div class="row home-event-list">*/
-/*                         <div class="col-md-6">*/
-/*                 <div class="media">*/
-/*                     <div class="media-left">*/
-/*                         <div class="media-date">*/
-/*                             <div class="day">2</div>*/
-/*                             <div class="month text-uppercase">Feb</div>*/
-/*                         </div>*/
-/*                     </div>*/
-/*                     <div class="media-body">*/
-/*                         <a href="detailpost/the-seven-stars-luxury-hospitality-and-lifestyle-awards.html"><h4 class="media-heading">The Seven Stars Luxury Hospitality and Lifestyle Awards</h4></a>*/
-/*                         The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the...*/
-/*                     </div>*/
-/*                 </div>*/
-/*             </div>*/
-/*             <div class="col-md-6">*/
-/*                 <div class="media">*/
-/*                     <div class="media-left">*/
-/*                         <div class="media-date">*/
-/*                             <div class="day">2</div>*/
-/*                             <div class="month text-uppercase">Feb</div>*/
-/*                         </div>*/
-/*                     </div>*/
-/*                     <div class="media-body">*/
-/*                         <a href="detailpost/miss-bali-tropix.html"><h4 class="media-heading">Miss Bali Tropix</h4></a>*/
-/*                         SATURDAY, 26 SEPTEMBER 2015*/
-/* Miss Bali Tropix official &ldquo;Ties and...*/
-/*                     </div>*/
-/*                 </div>*/
-/*             </div>*/
-/*             <div class="clearfix"></div>*/
-/*             <div class="col-md-12 text-uppercase text-center link-event">*/
-/*                 <a href="category/event.html">Read All Event</a>*/
-/*             </div>*/
-/*         </div>*/
-/*     </div>*/
 /* */
 /*     <div class="container-fluid home-gallery main-ruler">*/
-/*         <div class="container">*/
-/*             <div class="row">*/
-/*                 <div class="col-md-12">*/
-/*                     <div class="main-head-title">Gallery</div>*/
-/*                     <div class="thin-border">__</div>*/
+/*         <div class="row">*/
+/*             <div class="row home-event-list">*/
+/*                 <div class="col-md-5">*/
+/*                     <img src="{{url('/themes/alampuisi/assets/vendor/alampuisi/images/tripadvisor.png')}}" class="img-responsive tripadvisor-logo-img"/>*/
 /*                 </div>*/
-/*             </div>*/
-/*             <div class="row home-gallery-list">*/
-/*                 <div class="col-md-3 col-sm-6 col-xs-6 home-gal-box-img">*/
-/*                     <a href="{{'upload/full_presidential-villa_bedroom.jpg'}}" rel="prettyPhoto[pp_gal]"><img src="{{'upload/medium/medium_full_presidential-villa_bedroom.jpg'}}" class="img-responsive" /></a>*/
-/*                 </div>*/
-/*                     <div class="col-md-3 col-sm-6 col-xs-6 home-gal-box-img">*/
-/*                     <a href="{{'upload/full_room-celebrity-suite-bedroom.jpg'}}" rel="prettyPhoto[pp_gal]"><img src="{{'upload/medium/medium_full_room-celebrity-suite-bedroom.jpg'}}" class="img-responsive" /></a>*/
-/*                 </div>*/
-/*                 <div class="col-md-3 col-sm-6 col-xs-6 home-gal-box-img">*/
-/*                     <a href="{{'upload/full_presidential-villa_livingroom.jpg'}}" rel="prettyPhoto[pp_gal]"><img src="{{'upload/medium/medium_full_presidential-villa_livingroom.jpg'}}" class="img-responsive" /></a>*/
-/*                 </div>*/
-/*                 <div class="col-md-3 col-sm-6 col-xs-6 home-gal-box-img">*/
-/*                     <a href="{{'upload/full_room-premier-room-twin-bed.jpg'}}" rel="prettyPhoto[pp_gal]"><img src="{{'upload/medium/medium_full_room-premier-room-twin-bed.jpg'}}" class="img-responsive" /></a>*/
-/*                 </div>*/
-/*                 <div class="clearfix"></div>*/
-/*                 <div class="col-md-12 text-uppercase text-center link-event">*/
-/*                     <a href="album.html">See More</a>*/
+/*                 <div class="tripadvisor-right-box  col-md-7">*/
+/*                     <div class="tripadvisor-slide">*/
+/*                         <div class="row">*/
+/*                             <div id="tripadvisor-slide-box" class="owl-carousel owl-theme">*/
+/*                                 <div class="item">*/
+/*                                         <div class="row">*/
+/*                                             <div class="col-sm-3 text-center">*/
+/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
+/*                                                 Clair L*/
+/*                                                 <br/>*/
+/*                                                 London, United Kingdom*/
+/*                                             </div>    */
+/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
+/*                                             ***** via mobile<br/>*/
+/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                             </div>    */
+/*                                         </div>*/
+/*                                 </div>*/
+/*                                 <div class="item">*/
+/*                                         <div class="row">*/
+/*                                             <div class="col-sm-3 text-center">*/
+/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
+/*                                                 Clair L*/
+/*                                                 <br/>*/
+/*                                                 London, United Kingdom*/
+/*                                             </div>    */
+/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
+/*                                             ***** via mobile<br/>*/
+/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                             </div>    */
+/*                                         </div>*/
+/*                                 </div>*/
+/*                                 <div class="item">*/
+/*                                         <div class="row">*/
+/*                                             <div class="col-sm-3 text-center">*/
+/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
+/*                                                 Clair L*/
+/*                                                 <br/>*/
+/*                                                 London, United Kingdom*/
+/*                                             </div>    */
+/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
+/*                                             ***** via mobile<br/>*/
+/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                             </div>    */
+/*                                         </div>*/
+/*                                 </div>*/
+/*                             </div>*/
+/*                             <div class="custom-navigation">*/
+/*                                 <a class="navigation-left home-slide-left"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png'}}" /></a>*/
+/*                                 <a class="navigation-right home-slide-right"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png'}}" /></a>*/
+/*                             </div>*/
+/*                         </div>*/
+/*                     </div>*/
 /*                 </div>*/
 /*             </div>*/
 /*         </div>*/

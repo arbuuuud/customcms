@@ -56,7 +56,7 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => 3306,
-            'database'  => 'mindimedia',
+            'database'  => 'alampuisi',
             'username'  => 'root',
             'password'  => '',
             'charset'   => 'utf8',

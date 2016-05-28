@@ -22,34 +22,20 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
                         <div class=\"col-md-6 footer-padding footer-logo\">
                             <img src=\"";
         // line 5
-        echo "upload/big-logo.png";
+        echo url("upload/logo.png");
         echo "\" width=\"230\" class=\"img-responsive\" />
                             <div class=\"text-uppercase footer-padding\">
-                                <p>Jalan Sunset Road, Kerobokan, Bali, Kuta, Indonesia<br /> <strong>P</strong> <span class=\"number\">+62 361 8981234</span>&nbsp;&nbsp;&nbsp;<strong>F</strong> +62 361 8981233<br /><strong>E</strong> <span style=\"text-transform: lowercase;\">reservation.bali@thetranshotel.com</span></p>  
+                                <p>Banjar Sembuwuk, Desa Pejeng Ubud Gianyar Denpasar – Bali 80552<br/>
+                                <strong>P</strong> <span class=\"number\">0361 8987887</span>&nbsp;&nbsp;&nbsp;<strong>F</strong> 0361 8987885 &nbsp;&nbsp;&nbsp;
+                                <strong>M</strong> 081916558877<br/>
+                                <strong>E</strong> <span style=\"text-transform: lowercase;\">info@alampuisivilla.com</span></p>  
                             </div>
                         </div>
                         <div class=\"col-md-6 footer-padding footer-awards\">
-                            <div class=\"logo-award footer-padding\">
-                                <a href=\"http://www.sevenstaraward.com/winners/2015/hotels-resorts/asia\" target=\"_blank\"><img src=\"";
-        // line 12
-        echo "upload/award-1.png";
-        echo "\" class=\"img-responsive\"></a>
-                                <a href=\"http://www.sevenstaraward.com/winners/2015/hotels-resorts/asia\" target=\"_blank\"><img src=\"";
-        // line 13
-        echo "upload/award-2.png";
-        echo "\" class=\"img-responsive\"></a>
-                                <a href=\"http://nowbali.co.id/best\" target=\"_blank\"><img src=\"";
-        // line 14
-        echo "upload/award-3.png";
-        echo "\" class=\"img-responsive\"></a>
-                                <a href=\"http://www.luxuryhotelawards.com/winners/2015-hotel-awards\" target=\"_blank\"><img src=\"";
-        // line 15
-        echo "upload/award-4.png";
-        echo "\" class=\"img-responsive\"></a>
-                            </div>
+                            
                             <div class=\"footer-button\">
-                                    <a href=\"https://book.securebookings.net/roomrate?id=162fac13-34df-4aef-9dfa-431370d2afc5\" class=\"btn btn-trans btn-trans-text-brown text-uppercase\" target=\"_blank\">Book Now</a>
-                                    <a href=\"enquire.html\" class=\"btn btn-trans btn-trans-text-brown text-uppercase\" >Enquire Now</a>
+                                    <a href=\"https://book.securebookings.net/roomrate?id=162fac13-34df-4aef-9dfa-431370d2afc5\" class=\"btn btn-trans text-uppercase\" target=\"_blank\">Book Now</a>
+                                    <a href=\"enquire.html\" class=\"btn btn-trans text-uppercase\" >Enquire Now</a>
                             </div>
                         </div>
                     </div>
@@ -60,35 +46,34 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
                     <div class=\"row\">
                         <div class=\"col-md-9 sitemap-footer\">
                             <ul class=\"list-inline\">
-                                <li><a href=\"about-us.html\"  class=\"text-uppercase\">About Us</a></li>
-                                <li><a href=\"room-rates.html\"  class=\"text-uppercase\">Room Rates</a></li>
-                                <li><a href=\"meetings-events.html\"  class=\"text-uppercase\">Meetings &amp; Events</a></li>
-                                <li><a href=\"activities.html\"  class=\"text-uppercase\">Activities</a></li>
-                                <li><a href=\"specials-offers.html\"  class=\"text-uppercase\">Special Offers</a></li>
-                                <li><a href=\"album.html\"  class=\"text-uppercase\">Gallery</a></li>
+                                <li><a href=\"/about\"  class=\"text-uppercase\">About Us</a></li>
+                                <li><a href=\"/roomrates\"  class=\"text-uppercase\">Room Rates</a></li>
+                                <li><a href=\"/activities\"  class=\"text-uppercase\">Activities</a></li>
+                                <li><a href=\"/specialoffer\"  class=\"text-uppercase\">Special Offers</a></li>
+                                <li><a href=\"/gallery\"  class=\"text-uppercase\">Gallery</a></li>
                             </ul>
                         </div>
                         <div class=\"col-md-3 social-footer\">
                             <ul class=\"list-inline\">
-                                    <li><a href=\"https://www.facebook.com/pages/The-Trans-Resort-Bali/1530547410517258?rf=513256195393338\" target=\"_blank\"><img src=\"";
-        // line 40
-        echo "upload/icon-facebook.png";
+                                    <li><a href=\"#\" target=\"_blank\"><img src=\"";
+        // line 37
+        echo url("upload/icon-facebook.png");
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"https://twitter.com/TheTransBali\" target=\"_blank\"><img src=\"";
-        // line 41
+                                    <li><a href=\"#\" target=\"_blank\"><img src=\"";
+        // line 38
         echo "upload/icon-twitter.png";
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"https://plus.google.com/u/0/b/104642915593386456124/pages/settings/plus\" target=\"_blank\"><img src=\"";
-        // line 42
-        echo "upload/icon-gplus.png";
+                                    <li><a href=\"#\" target=\"_blank\"><img src=\"";
+        // line 39
+        echo url("upload/icon-gplus.png");
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"http://www.tripadvisor.com/Hotel_Review-g469404-d7368654-Reviews-The_Trans_Resort_Bali-Seminyak_Bali.html\" target=\"_blank\"><img src=\"";
-        // line 43
+                                    <li><a href=\"#\" target=\"_blank\"><img src=\"";
+        // line 40
         echo "upload/icon-tripadvisor.png";
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"index.html#\" target=\"_blank\"><img src=\"";
-        // line 44
-        echo "upload/icon-share.png";
+                                    <li><a href=\"#\" target=\"_blank\"><img src=\"";
+        // line 41
+        echo url("upload/icon-share.png");
         echo "\" width=\"28\" /></a></li>
                             </ul>
                         </div>
@@ -118,28 +103,26 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
 
     public function getDebugInfo()
     {
-        return array (  91 => 44,  87 => 43,  83 => 42,  79 => 41,  75 => 40,  47 => 15,  43 => 14,  39 => 13,  35 => 12,  25 => 5,  19 => 1,);
+        return array (  76 => 41,  72 => 40,  68 => 39,  64 => 38,  60 => 37,  25 => 5,  19 => 1,);
     }
 }
 /* <div class="container-fluid footer-con">*/
 /*                 <div class="container">*/
 /*                     <div class="row">*/
 /*                         <div class="col-md-6 footer-padding footer-logo">*/
-/*                             <img src="{{'upload/big-logo.png'}}" width="230" class="img-responsive" />*/
+/*                             <img src="{{url('upload/logo.png')}}" width="230" class="img-responsive" />*/
 /*                             <div class="text-uppercase footer-padding">*/
-/*                                 <p>Jalan Sunset Road, Kerobokan, Bali, Kuta, Indonesia<br /> <strong>P</strong> <span class="number">+62 361 8981234</span>&nbsp;&nbsp;&nbsp;<strong>F</strong> +62 361 8981233<br /><strong>E</strong> <span style="text-transform: lowercase;">reservation.bali@thetranshotel.com</span></p>  */
+/*                                 <p>Banjar Sembuwuk, Desa Pejeng Ubud Gianyar Denpasar – Bali 80552<br/>*/
+/*                                 <strong>P</strong> <span class="number">0361 8987887</span>&nbsp;&nbsp;&nbsp;<strong>F</strong> 0361 8987885 &nbsp;&nbsp;&nbsp;*/
+/*                                 <strong>M</strong> 081916558877<br/>*/
+/*                                 <strong>E</strong> <span style="text-transform: lowercase;">info@alampuisivilla.com</span></p>  */
 /*                             </div>*/
 /*                         </div>*/
 /*                         <div class="col-md-6 footer-padding footer-awards">*/
-/*                             <div class="logo-award footer-padding">*/
-/*                                 <a href="http://www.sevenstaraward.com/winners/2015/hotels-resorts/asia" target="_blank"><img src="{{'upload/award-1.png'}}" class="img-responsive"></a>*/
-/*                                 <a href="http://www.sevenstaraward.com/winners/2015/hotels-resorts/asia" target="_blank"><img src="{{'upload/award-2.png'}}" class="img-responsive"></a>*/
-/*                                 <a href="http://nowbali.co.id/best" target="_blank"><img src="{{'upload/award-3.png'}}" class="img-responsive"></a>*/
-/*                                 <a href="http://www.luxuryhotelawards.com/winners/2015-hotel-awards" target="_blank"><img src="{{'upload/award-4.png'}}" class="img-responsive"></a>*/
-/*                             </div>*/
+/*                             */
 /*                             <div class="footer-button">*/
-/*                                     <a href="https://book.securebookings.net/roomrate?id=162fac13-34df-4aef-9dfa-431370d2afc5" class="btn btn-trans btn-trans-text-brown text-uppercase" target="_blank">Book Now</a>*/
-/*                                     <a href="enquire.html" class="btn btn-trans btn-trans-text-brown text-uppercase" >Enquire Now</a>*/
+/*                                     <a href="https://book.securebookings.net/roomrate?id=162fac13-34df-4aef-9dfa-431370d2afc5" class="btn btn-trans text-uppercase" target="_blank">Book Now</a>*/
+/*                                     <a href="enquire.html" class="btn btn-trans text-uppercase" >Enquire Now</a>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                     </div>*/
@@ -150,21 +133,20 @@ class __TwigTemplate_6d4b76c1d159b579baa1ca28a866cd05f9f06091c5ef4e4e3074c27af73
 /*                     <div class="row">*/
 /*                         <div class="col-md-9 sitemap-footer">*/
 /*                             <ul class="list-inline">*/
-/*                                 <li><a href="about-us.html"  class="text-uppercase">About Us</a></li>*/
-/*                                 <li><a href="room-rates.html"  class="text-uppercase">Room Rates</a></li>*/
-/*                                 <li><a href="meetings-events.html"  class="text-uppercase">Meetings &amp; Events</a></li>*/
-/*                                 <li><a href="activities.html"  class="text-uppercase">Activities</a></li>*/
-/*                                 <li><a href="specials-offers.html"  class="text-uppercase">Special Offers</a></li>*/
-/*                                 <li><a href="album.html"  class="text-uppercase">Gallery</a></li>*/
+/*                                 <li><a href="/about"  class="text-uppercase">About Us</a></li>*/
+/*                                 <li><a href="/roomrates"  class="text-uppercase">Room Rates</a></li>*/
+/*                                 <li><a href="/activities"  class="text-uppercase">Activities</a></li>*/
+/*                                 <li><a href="/specialoffer"  class="text-uppercase">Special Offers</a></li>*/
+/*                                 <li><a href="/gallery"  class="text-uppercase">Gallery</a></li>*/
 /*                             </ul>*/
 /*                         </div>*/
 /*                         <div class="col-md-3 social-footer">*/
 /*                             <ul class="list-inline">*/
-/*                                     <li><a href="https://www.facebook.com/pages/The-Trans-Resort-Bali/1530547410517258?rf=513256195393338" target="_blank"><img src="{{'upload/icon-facebook.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="https://twitter.com/TheTransBali" target="_blank"><img src="{{'upload/icon-twitter.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="https://plus.google.com/u/0/b/104642915593386456124/pages/settings/plus" target="_blank"><img src="{{'upload/icon-gplus.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="http://www.tripadvisor.com/Hotel_Review-g469404-d7368654-Reviews-The_Trans_Resort_Bali-Seminyak_Bali.html" target="_blank"><img src="{{'upload/icon-tripadvisor.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="index.html#" target="_blank"><img src="{{'upload/icon-share.png'}}" width="28" /></a></li>*/
+/*                                     <li><a href="#" target="_blank"><img src="{{url('upload/icon-facebook.png')}}" width="28" /></a></li>*/
+/*                                     <li><a href="#" target="_blank"><img src="{{'upload/icon-twitter.png'}}" width="28" /></a></li>*/
+/*                                     <li><a href="#" target="_blank"><img src="{{url('upload/icon-gplus.png')}}" width="28" /></a></li>*/
+/*                                     <li><a href="#" target="_blank"><img src="{{'upload/icon-tripadvisor.png'}}" width="28" /></a></li>*/
+/*                                     <li><a href="#" target="_blank"><img src="{{url('upload/icon-share.png')}}" width="28" /></a></li>*/
 /*                             </ul>*/
 /*                         </div>*/
 /*                     </div>*/
