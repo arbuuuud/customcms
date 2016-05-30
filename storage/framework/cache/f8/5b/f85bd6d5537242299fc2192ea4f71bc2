@@ -1,4 +1,4 @@
-1464534322s:12307:"a:6:{s:5:"mtime";i:1464409781;s:7:"content";s:6062:"title = "roomrates"
+1464611730s:7489:"a:6:{s:5:"mtime";i:1464595575;s:7:"content";s:3653:"title = "roomrates"
 url = "/roomrates"
 layout = "category"
 is_hidden = 0
@@ -53,42 +53,8 @@ is_hidden = 0
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 box-grid">
-                    <div class="main-head-title title-medium">Three Bedroom Private Pool Villa</div>
-                    <div class="thin-border title-medium">___</div>
-                    <div class="grid2">
-                         <figure class="item effect-ruby">
-                            <img src="{{'upload/alampuisi/Pool-Villa-10.jpg'}}" alt="" />
-                            <figcaption>
-                                <p>
-                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
-                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
-                                </p>
-                                <a href="{{url('roomrates/three-bed-room')}}">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 box-grid">
-                    <div class="main-head-title title-medium">Premier Room</div>
-                    <div class="thin-border title-medium">___</div>
-                    <div class="grid2">
-                       <figure class="item effect-ruby">
-                            <img src="{{'upload/alampuisi/Deluxe-Room-1.jpg'}}" alt="" />
-                            <figcaption>
-                                <p>
-                                    <span class="hidden-xs">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>
-                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
-                                </p>
-                                <a href="{{url('roomrates/premier-room')}}">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"roomrates";s:3:"url";s:10:"/roomrates";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:5981:"{% put scripts %}
+    </div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:9:"roomrates";s:3:"url";s:10:"/roomrates";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:3572:"{% put scripts %}
     <script src="{{ [
         'assets/vendor/isotope/jquery.isotope.js',
         'assets/javascript/pages/portfolio.js',
@@ -133,40 +99,6 @@ is_hidden = 0
                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
                                 </p>
                                 <a href="{{url('roomrates/two-bed-room')}}">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 box-grid">
-                    <div class="main-head-title title-medium">Three Bedroom Private Pool Villa</div>
-                    <div class="thin-border title-medium">___</div>
-                    <div class="grid2">
-                         <figure class="item effect-ruby">
-                            <img src="{{'upload/alampuisi/Pool-Villa-10.jpg'}}" alt="" />
-                            <figcaption>
-                                <p>
-                                    <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
-                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
-                                </p>
-                                <a href="{{url('roomrates/three-bed-room')}}">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 box-grid">
-                    <div class="main-head-title title-medium">Premier Room</div>
-                    <div class="thin-border title-medium">___</div>
-                    <div class="grid2">
-                       <figure class="item effect-ruby">
-                            <img src="{{'upload/alampuisi/Deluxe-Room-1.jpg'}}" alt="" />
-                            <figcaption>
-                                <p>
-                                    <span class="hidden-xs">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>
-                                    <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>
-                                </p>
-                                <a href="{{url('roomrates/premier-room')}}">View more</a>
                             </figcaption>
                         </figure>
                     </div>

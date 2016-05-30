@@ -134,7 +134,10 @@ We call it our home
 Alam Puisi Villa in Ubud, Bali.
 
                         </p>
-<p><a class=\"btn btn-trans btn-trans-text-brown text-uppercase\" href=\"about-us.html\">More About Us</a></p>                  
+<p><a class=\"btn btn-trans btn-trans-text-brown text-uppercase\" href=\"";
+        // line 119
+        echo url("/about");
+        echo "\">More About Us</a></p>                  
 </div>
                 </div>
             </div>
@@ -193,7 +196,7 @@ Alam Puisi Villa in Ubud, Bali.
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
         // line 158
-        echo "upload/medium/medium_unbeatable-deal.jpg";
+        echo "upload/alampuisi/Pool-Villa-11.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
                         <h2 class=\"text-uppercase\">Unbeatable Deal</h2>
@@ -208,7 +211,7 @@ Alam Puisi Villa in Ubud, Bali.
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
         // line 170
-        echo "upload/medium/medium_stay-5-pay-4.jpg";
+        echo "upload/alampuisi/Pool-Villa-1.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
                         <h2 class=\"text-uppercase\">Advance Purchase</h2>
@@ -223,7 +226,7 @@ Alam Puisi Villa in Ubud, Bali.
                 <figure class=\"item effect-ruby\">
                     <img src=\"";
         // line 182
-        echo "upload/medium/medium_family-deals.jpg";
+        echo "upload/alampuisi/Pool-Villa-16.jpg";
         echo "\" alt=\"\" />
                     <figcaption>
                         <h2 class=\"text-uppercase\">Room Only</h2>
@@ -235,51 +238,6 @@ Alam Puisi Villa in Ubud, Bali.
                         <a href=\"specials-offers/intimate-package.html\">View more</a>
                     </figcaption>
                 </figure>
-                <figure class=\"item effect-ruby\">
-                    <img src=\"";
-        // line 194
-        echo "upload/medium/medium_TTRB-FINAL-ARTWORK-PROVIP-PACKAGE-TTRB-20-APRIL-2016-revised-1-LR-01.jpg";
-        echo "\" alt=\"\" />
-                    <figcaption>
-                        <h2 class=\"text-uppercase\">Victorian Legal Practitioners</h2>
-                        <h2 class=\"text-uppercase h2-after\">Victorian Legal Practitioners</h2>
-                        <p>
-                            &nbsp;start from IDR 29,990,000 NET&nbsp;The Trans Resort BALI is offering an exclusive...<br /><br />
-                            <a href=\"specials-offers/victorian-legal-practitioners.html\" class=\"btn btn-trans text-uppercase\">Book Now</a>
-                        </p>
-                        <a href=\"specials-offers/victorian-legal-practitioners.html\">View more</a>
-                    </figcaption>
-                </figure>
-                <figure class=\"item effect-ruby\">
-                    <img src=\"";
-        // line 206
-        echo "upload/medium/medium_advance-purchase.jpg";
-        echo "\" alt=\"\" />
-                    <figcaption>
-                        <h2 class=\"text-uppercase\">Advance Purchase</h2>
-                        <h2 class=\"text-uppercase h2-after\">Advance Purchase</h2>
-                        <p>
-                            &nbsp;45% Discount from Best Available Rate - Rate starts from IDR...<br /><br />
-                            <a href=\"specials-offers/advance-purchase.html\" class=\"btn btn-trans text-uppercase\">Book Now</a>
-                        </p>
-                        <a href=\"specials-offers/advance-purchase.html\">View more</a>
-                    </figcaption>
-                </figure>
-                <figure class=\"item effect-ruby\">
-                    <img src=\"";
-        // line 218
-        echo "upload/medium/medium_last-minute-promo.jpg";
-        echo "\" alt=\"\" />
-                    <figcaption>
-                        <h2 class=\"text-uppercase\">Room Only</h2>
-                        <h2 class=\"text-uppercase h2-after\">Room Only</h2>
-                        <p>
-                            &nbsp;30% Discount from Best Available Rate - Rate starts from IDR...<br /><br />
-                            <a href=\"specials-offers/room-only.html\" class=\"btn btn-trans text-uppercase\">Book Now</a>
-                        </p>
-                        <a href=\"specials-offers/room-only.html\">View more</a>
-                    </figcaption>
-                </figure>
             </div>
             <div class=\"custom-navigation custom-navigation-2\">
                 <a class=\"navigation-left home-special-offers-left\"><i class=\"fa fa-angle-left\"></i></a>
@@ -289,12 +247,13 @@ Alam Puisi Villa in Ubud, Bali.
     </div>
 
 
-    <div class=\"container-fluid home-gallery main-ruler\">
+    <!-- TRIPADVISOR -->
+    <div class=\"container home-gallery main-ruler\">
         <div class=\"row\">
             <div class=\"row home-event-list\">
                 <div class=\"col-md-5\">
                     <img src=\"";
-        // line 242
+        // line 207
         echo url("/themes/alampuisi/assets/vendor/alampuisi/images/tripadvisor.png");
         echo "\" class=\"img-responsive tripadvisor-logo-img\"/>
                 </div>
@@ -302,66 +261,324 @@ Alam Puisi Villa in Ubud, Bali.
                     <div class=\"tripadvisor-slide\">
                         <div class=\"row\">
                             <div id=\"tripadvisor-slide-box\" class=\"owl-carousel owl-theme\">
+                                <!-- TRIPADVISOR - ITEM -->
                                 <div class=\"item\">
-                                        <div class=\"row\">
-                                            <div class=\"col-sm-3 text-center\">
-                                                <img src=\"";
-        // line 251
-        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
-        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
-                                                Clair L
-                                                <br/>
-                                                London, United Kingdom
-                                            </div>    
-                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
-                                            ***** via mobile<br/>
-                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                    <div class=\"row\">
+                                        <div class=\"col-sm-3\">
+                                            <div class=\"col1of2\">
+                                                <div class=\"member_info\">
+                                                    <div>
+                                                        <div class=\"avatar\">
+                                                            <a onclick=\"\">
+                                                                <img src=\"";
+        // line 222
+        echo url("/upload/alampuisi/tripadvisor/avatar-ta-1.jpg");
+        echo "\" class=\"avatar potentialFacebookAvatar\" width=\"74\" height=\"74\">
+                                                            </a>
+                                                        </div>
+                                                        <div class=\"username mo\">
+                                                            <span class=\"expand_inline scrname\">_snbeams3</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=\"location\">
+                                                        Adelaide, Australia
+                                                    </div>
+                                                </div>
+                                                <div class=\"memberBadging g10n\">
+                                                    <div class=\"no_cpu\">
+                                                        <div class=\"reviewerBadge\">
+                                                            <img alt=\"\" width=\"20\" class=\"icon lazy\" height=\"20\" src=\"https://static.tacdn.com/img2/badges/20px/rev_01.png\">
+                                                            <span class=\"badgeText\">1 review</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class=\"col-sm-9\">
+                                            <div class=\"col2of2\">
+                                                <div class=\"innerBubble\">
+                                                    <div property=\"name\" class=\"quote\">
+                                                        <a href=\"https://www.tripadvisor.com/ShowUserReviews-g297701-d5279733-r377457277-Alam_Puisi_Villa-Ubud_Bali.html#\"  target=\"_blank\">
+                                                        “What a little gem”
+                                                        </a>
+                                                    </div>
+                                                    <div class=\"rating reviewItemInline\">
+                                                        <span class=\"rate sprite-rating_s rating_s\"> <img class=\"sprite-rating_s_fill rating_s_fill s50\" src=\"https://static.tacdn.com/img2/x.gif\" alt=\"5 of 5 stars\">
+                                                        </span>
+                                                        <span class=\"ratingDate relativeDate\" title=\"May 28, 2016\" content=\"2016-05-28\" property=\"datePublished\">
+                                                            Reviewed 2 days ago
+                                                        </span>
+                                                    </div>
+                                                    <div class=\"entry\">
+                                                        <p property=\"reviewBody\" id=\"review_377457277\">
+                                                        This was our second time to Bali and we decided to get away where there would be some peace and quiet. The Alam Puisi Villas certainly met these expectations.
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>    
                                         </div>
+                                    </div>
                                 </div>
+                                <!-- END TRIPADVISOR - ITEM -->
+                                <!-- TRIPADVISOR - ITEM -->
                                 <div class=\"item\">
-                                        <div class=\"row\">
-                                            <div class=\"col-sm-3 text-center\">
-                                                <img src=\"";
-        // line 265
-        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
-        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
-                                                Clair L
-                                                <br/>
-                                                London, United Kingdom
-                                            </div>    
-                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
-                                            ***** via mobile<br/>
-                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                    <div class=\"row\">
+                                        <div class=\"col-sm-3\">
+                                            <div class=\"col1of2\">
+                                                <div class=\"member_info\">
+                                                    <div>
+                                                        <div class=\"avatar\">
+                                                            <a onclick=\"\">
+                                                                <img src=\"";
+        // line 278
+        echo url("/upload/alampuisi/tripadvisor/avatar-ta-2.jpg");
+        echo "\" class=\"avatar potentialFacebookAvatar\" width=\"74\" height=\"74\">
+                                                            </a>
+                                                        </div>
+                                                        <div class=\"username mo\">
+                                                            <span class=\"expand_inline scrname\">m_abdelfattah</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=\"location\">
+                                                        Alexandria, Egypt
+                                                    </div>
+                                                </div>
+                                                <div class=\"memberBadging g10n\">
+                                                    <div class=\"no_cpu\">
+                                                        <div class=\"reviewerBadge\">
+                                                            <img alt=\"\" width=\"20\" class=\"icon lazy\" height=\"20\" src=\"https://static.tacdn.com/img2/badges/20px/rev_01.png\">
+                                                            <span class=\"badgeText\">5 review</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class=\"col-sm-9\">
+                                            <div class=\"col2of2\">
+                                                <div class=\"innerBubble\">
+                                                    <div property=\"name\" class=\"quote\">
+                                                        <a href=\"https://www.tripadvisor.com/ShowUserReviews-g297701-d5279733-r377457277-Alam_Puisi_Villa-Ubud_Bali.html#\"  target=\"_blank\">
+                                                        “Awesome place and awesome staff in the middle of the nature”
+                                                        </a>
+                                                    </div>
+                                                    <div class=\"rating reviewItemInline\">
+                                                        <span class=\"rate sprite-rating_s rating_s\"> <img class=\"sprite-rating_s_fill rating_s_fill s50\" src=\"https://static.tacdn.com/img2/x.gif\" alt=\"5 of 5 stars\">
+                                                        </span>
+                                                        <span class=\"ratingDate relativeDate\" title=\"May 28, 2016\" content=\"2016-05-28\" property=\"datePublished\">
+                                                            Reviewed 1 week ago
+                                                        </span>
+                                                    </div>
+                                                    <div class=\"entry\">
+                                                        <p property=\"reviewBody\" id=\"review_377457277\">
+                                                        The place is really good, the staff is awesome, and nature is amazing. The hotel is 15 minutes away from Ubud; there are free shuttle buses. I highly recommend this place. It is one of the best places I've ever been in my life.
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375514347-Alam_Puisi_Villa-Ubud_Bali.html#\" target=\"_blank\">read more</a>   
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>    
                                         </div>
+                                    </div>
                                 </div>
+                                <!-- END TRIPADVISOR - ITEM -->
+                                <!-- TRIPADVISOR - ITEM -->
                                 <div class=\"item\">
-                                        <div class=\"row\">
-                                            <div class=\"col-sm-3 text-center\">
-                                                <img src=\"";
-        // line 279
-        echo url("/themes/alampuisi/assets/images/team/aleksey.png");
-        echo "\" class=\"img-responsive tripadvisor-img\" /><br/>
-                                                Clair L
-                                                <br/>
-                                                London, United Kingdom
-                                            </div>    
-                                            <div class=\"col-sm-9\"><span>\"Fantastic stay\"</span><br/>
-                                            ***** via mobile<br/>
-                                            The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the
+                                    <div class=\"row\">
+                                        <div class=\"col-sm-3\">
+                                            <div class=\"col1of2\">
+                                                <div class=\"member_info\">
+                                                    <div>
+                                                        <div class=\"avatar\">
+                                                            <a onclick=\"\">
+                                                               <img src=\"";
+        // line 335
+        echo url("/upload/alampuisi/tripadvisor/avatar-ta-3.jpg");
+        echo "\" class=\"avatar potentialFacebookAvatar\" width=\"74\" height=\"74\">
+                                                            </a>
+                                                        </div>
+                                                        <div class=\"username mo\">
+                                                            <span class=\"expand_inline scrname\">Deano_au</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=\"location\">
+                                                        Bunbury, Western Australia, Australia
+                                                    </div>
+                                                </div>
+                                                <div class=\"memberBadging g10n\">
+                                                    <div class=\"no_cpu\">
+                                                        <div class=\"reviewerBadge\">
+                                                            <img alt=\"\" width=\"20\" class=\"icon lazy\" height=\"20\" src=\"https://static.tacdn.com/img2/badges/20px/rev_01.png\">
+                                                            <span class=\"badgeText\">222 review</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class=\"col-sm-9\">
+                                            <div class=\"col2of2\">
+                                                <div class=\"innerBubble\">
+                                                    <div property=\"name\" class=\"quote\">
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375303612-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT\"  target=\"_blank\">
+                                                        “One Word... Superb!”
+                                                        </a>
+                                                    </div>
+                                                    <div class=\"rating reviewItemInline\">
+                                                        <span class=\"rate sprite-rating_s rating_s\"> <img class=\"sprite-rating_s_fill rating_s_fill s50\" src=\"https://static.tacdn.com/img2/x.gif\" alt=\"5 of 5 stars\">
+                                                        </span>
+                                                        <span class=\"ratingDate relativeDate\" title=\"May 28, 2016\" content=\"2016-05-28\" property=\"datePublished\">
+                                                            Reviewed 1 weeks ago
+                                                        </span>
+                                                    </div>
+                                                    <div class=\"entry\">
+                                                        <p property=\"reviewBody\" id=\"review_377457277\">
+                                                        My wife and I love travel and we love it even more when we find a place like Alam Puisi. We booked here to get away and do a digital detox, we were able to do this and so much more.
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375303612-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT\"  target=\"_blank\">
+                                                        read more
+                                                        </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>    
                                         </div>
+                                    </div>
                                 </div>
+                                <!-- END TRIPADVISOR - ITEM -->
+                                <!-- TRIPADVISOR - ITEM -->
+                                <div class=\"item\">
+                                    <div class=\"row\">
+                                        <div class=\"col-sm-3\">
+                                            <div class=\"col1of2\">
+                                                <div class=\"member_info\">
+                                                    <div>
+                                                        <div class=\"avatar\">
+                                                            <a onclick=\"\">
+                                                               <img src=\"";
+        // line 394
+        echo url("/upload/alampuisi/tripadvisor/avatar-ta-4.jpg");
+        echo "\" class=\"avatar potentialFacebookAvatar\" width=\"74\" height=\"74\">
+                                                            </a>
+                                                        </div>
+                                                        <div class=\"username mo\">
+                                                            <span class=\"expand_inline scrname\">Caitlin_G</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=\"location\">
+                                                    </div>
+                                                </div>
+                                                <div class=\"memberBadging g10n\">
+                                                    <div class=\"no_cpu\">
+                                                        <div class=\"reviewerBadge\">
+                                                            <img alt=\"\" width=\"20\" class=\"icon lazy\" height=\"20\" src=\"https://static.tacdn.com/img2/badges/20px/rev_01.png\">
+                                                            <span class=\"badgeText\">19 review</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class=\"col-sm-9\">
+                                            <div class=\"col2of2\">
+                                                <div class=\"innerBubble\">
+                                                    <div property=\"name\" class=\"quote\">
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r374735480-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT\"  target=\"_blank\">
+                                                        “Highlight of Ubud”
+                                                        </a>
+                                                    </div>
+                                                    <div class=\"rating reviewItemInline\">
+                                                        <span class=\"rate sprite-rating_s rating_s\"> <img class=\"sprite-rating_s_fill rating_s_fill s50\" src=\"https://static.tacdn.com/img2/x.gif\" alt=\"5 of 5 stars\">
+                                                        </span>
+                                                        <span class=\"ratingDate relativeDate\" title=\"May 28, 2016\" content=\"2016-05-28\" property=\"datePublished\">
+                                                            Reviewed 1 weeks ago
+                                                        </span>
+                                                    </div>
+                                                    <div class=\"entry\">
+                                                        <p property=\"reviewBody\" id=\"review_377457277\">
+                                                       Stayed at Alam Puisi for 3 nights in a beautiful 1 bedroom villa with pool overlooking the rice fields. The grounds of the hotel were very well kept and peaceful. The staff are beyond friendly and go out of their way to make you feel welcome.
+
+
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r374735480-Alam_Puisi_Villa-Ubud_Bali.html#\"  target=\"_blank\">
+                                                        read more
+                                                        </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END TRIPADVISOR - ITEM -->
+                                <!-- TRIPADVISOR - ITEM -->
+                                <div class=\"item\">
+                                    <div class=\"row\">
+                                        <div class=\"col-sm-3\">
+                                            <div class=\"col1of2\">
+                                                <div class=\"member_info\">
+                                                    <div>
+                                                        <div class=\"avatar\">
+                                                            <a onclick=\"\">
+                                                               <img src=\"";
+        // line 454
+        echo url("/upload/alampuisi/tripadvisor/avatar-ta-5.jpg");
+        echo "\" class=\"avatar potentialFacebookAvatar\" width=\"74\" height=\"74\">
+                                                            </a>
+                                                        </div>
+                                                        <div class=\"username mo\">
+                                                            <span class=\"expand_inline scrname\">mikeofadelaide</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=\"location\">
+                                                        Adelaide, Australia
+                                                    </div>
+                                                </div>
+                                                <div class=\"memberBadging g10n\">
+                                                    <div class=\"no_cpu\">
+                                                        <div class=\"reviewerBadge\">
+                                                            <img alt=\"\" width=\"20\" class=\"icon lazy\" height=\"20\" src=\"https://static.tacdn.com/img2/badges/20px/rev_01.png\">
+                                                            <span class=\"badgeText\">10 review</span> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                        <div class=\"col-sm-9\">
+                                            <div class=\"col2of2\">
+                                                <div class=\"innerBubble\">
+                                                    <div property=\"name\" class=\"quote\">
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r367980801-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT\"  target=\"_blank\">
+                                                        “A great place to relax.”
+                                                        </a>
+                                                    </div>
+                                                    <div class=\"rating reviewItemInline\">
+                                                        <span class=\"rate sprite-rating_s rating_s\"> <img class=\"sprite-rating_s_fill rating_s_fill s50\" src=\"https://static.tacdn.com/img2/x.gif\" alt=\"5 of 5 stars\">
+                                                        </span>
+                                                        <span class=\"ratingDate relativeDate\" title=\"May 28, 2016\" content=\"2016-05-28\" property=\"datePublished\">
+                                                            Reviewed 1 weeks ago
+                                                        </span>
+                                                    </div>
+                                                    <div class=\"entry\">
+                                                        <p property=\"reviewBody\" id=\"review_377457277\">
+                                                       Wonderful.
+                                                       We wanted to be out of the hustle and bustle of Ubud.
+                                                       (That's right! Ubud is now full of the people trying to get away from the madness of Kuta and surrounds.)
+                                                        <a href=\"https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r367980801-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT\"  target=\"_blank\">
+                                                        read more
+                                                        </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END TRIPADVISOR - ITEM -->
+                               
                             </div>
-                            <div class=\"custom-navigation\">
-                                <a class=\"navigation-left home-slide-left\"><img src=\"";
-        // line 292
-        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png";
+                            <div class=\"custom-navigation custom-navigation-ext\">
+                                <a class=\"navigation-left home-slide-left ta-slide\"><img src=\"";
+        // line 509
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-ta-left.png";
         echo "\" /></a>
-                                <a class=\"navigation-right home-slide-right\"><img src=\"";
-        // line 293
-        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png";
+                                <a class=\"navigation-right home-slide-right ta-slide\"><img src=\"";
+        // line 510
+        echo "themes/alampuisi/assets/vendor/alampuisi/images/nav-ta-right.png";
         echo "\" /></a>
                             </div>
                         </div>
@@ -369,7 +586,8 @@ Alam Puisi Villa in Ubud, Bali.
                 </div>
             </div>
         </div>
-    </div>";
+    </div>
+    <!-- END TRIPADVISOR -->";
     }
 
     public function getTemplateName()
@@ -384,7 +602,7 @@ Alam Puisi Villa in Ubud, Bali.
 
     public function getDebugInfo()
     {
-        return array (  364 => 293,  360 => 292,  344 => 279,  327 => 265,  310 => 251,  298 => 242,  271 => 218,  256 => 206,  241 => 194,  226 => 182,  211 => 170,  196 => 158,  175 => 140,  171 => 139,  164 => 135,  157 => 131,  153 => 130,  149 => 129,  19 => 1,);
+        return array (  581 => 510,  577 => 509,  519 => 454,  456 => 394,  394 => 335,  334 => 278,  275 => 222,  257 => 207,  229 => 182,  214 => 170,  199 => 158,  178 => 140,  174 => 139,  167 => 135,  160 => 131,  156 => 130,  152 => 129,  139 => 119,  19 => 1,);
     }
 }
 /* <div class="header-book">*/
@@ -505,7 +723,7 @@ Alam Puisi Villa in Ubud, Bali.
 /* Alam Puisi Villa in Ubud, Bali.*/
 /* */
 /*                         </p>*/
-/* <p><a class="btn btn-trans btn-trans-text-brown text-uppercase" href="about-us.html">More About Us</a></p>                  */
+/* <p><a class="btn btn-trans btn-trans-text-brown text-uppercase" href="{{url('/about')}}">More About Us</a></p>                  */
 /* </div>*/
 /*                 </div>*/
 /*             </div>*/
@@ -544,7 +762,7 @@ Alam Puisi Villa in Ubud, Bali.
 /*         <div class="row">*/
 /*             <div id="home-special-offers-box" class="owl-carousel owl-theme grid">*/
 /*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_unbeatable-deal.jpg'}}" alt="" />*/
+/*                     <img src="{{'upload/alampuisi/Pool-Villa-11.jpg'}}" alt="" />*/
 /*                     <figcaption>*/
 /*                         <h2 class="text-uppercase">Unbeatable Deal</h2>*/
 /*                         <h2 class="text-uppercase h2-after">Unbeatable Deal</h2>*/
@@ -556,7 +774,7 @@ Alam Puisi Villa in Ubud, Bali.
 /*                     </figcaption>*/
 /*                 </figure>*/
 /*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_stay-5-pay-4.jpg'}}" alt="" />*/
+/*                     <img src="{{'upload/alampuisi/Pool-Villa-1.jpg'}}" alt="" />*/
 /*                     <figcaption>*/
 /*                         <h2 class="text-uppercase">Advance Purchase</h2>*/
 /*                         <h2 class="text-uppercase h2-after">Advance Purchase</h2>*/
@@ -568,7 +786,7 @@ Alam Puisi Villa in Ubud, Bali.
 /*                     </figcaption>*/
 /*                 </figure>*/
 /*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_family-deals.jpg'}}" alt="" />*/
+/*                     <img src="{{'upload/alampuisi/Pool-Villa-16.jpg'}}" alt="" />*/
 /*                     <figcaption>*/
 /*                         <h2 class="text-uppercase">Room Only</h2>*/
 /*                         <h2 class="text-uppercase h2-after">Room Only</h2>*/
@@ -577,42 +795,6 @@ Alam Puisi Villa in Ubud, Bali.
 /*                             <a href="specials-offers/intimate-package.html" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                         </p>*/
 /*                         <a href="specials-offers/intimate-package.html">View more</a>*/
-/*                     </figcaption>*/
-/*                 </figure>*/
-/*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_TTRB-FINAL-ARTWORK-PROVIP-PACKAGE-TTRB-20-APRIL-2016-revised-1-LR-01.jpg'}}" alt="" />*/
-/*                     <figcaption>*/
-/*                         <h2 class="text-uppercase">Victorian Legal Practitioners</h2>*/
-/*                         <h2 class="text-uppercase h2-after">Victorian Legal Practitioners</h2>*/
-/*                         <p>*/
-/*                             &nbsp;start from IDR 29,990,000 NET&nbsp;The Trans Resort BALI is offering an exclusive...<br /><br />*/
-/*                             <a href="specials-offers/victorian-legal-practitioners.html" class="btn btn-trans text-uppercase">Book Now</a>*/
-/*                         </p>*/
-/*                         <a href="specials-offers/victorian-legal-practitioners.html">View more</a>*/
-/*                     </figcaption>*/
-/*                 </figure>*/
-/*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_advance-purchase.jpg'}}" alt="" />*/
-/*                     <figcaption>*/
-/*                         <h2 class="text-uppercase">Advance Purchase</h2>*/
-/*                         <h2 class="text-uppercase h2-after">Advance Purchase</h2>*/
-/*                         <p>*/
-/*                             &nbsp;45% Discount from Best Available Rate - Rate starts from IDR...<br /><br />*/
-/*                             <a href="specials-offers/advance-purchase.html" class="btn btn-trans text-uppercase">Book Now</a>*/
-/*                         </p>*/
-/*                         <a href="specials-offers/advance-purchase.html">View more</a>*/
-/*                     </figcaption>*/
-/*                 </figure>*/
-/*                 <figure class="item effect-ruby">*/
-/*                     <img src="{{'upload/medium/medium_last-minute-promo.jpg'}}" alt="" />*/
-/*                     <figcaption>*/
-/*                         <h2 class="text-uppercase">Room Only</h2>*/
-/*                         <h2 class="text-uppercase h2-after">Room Only</h2>*/
-/*                         <p>*/
-/*                             &nbsp;30% Discount from Best Available Rate - Rate starts from IDR...<br /><br />*/
-/*                             <a href="specials-offers/room-only.html" class="btn btn-trans text-uppercase">Book Now</a>*/
-/*                         </p>*/
-/*                         <a href="specials-offers/room-only.html">View more</a>*/
 /*                     </figcaption>*/
 /*                 </figure>*/
 /*             </div>*/
@@ -624,7 +806,8 @@ Alam Puisi Villa in Ubud, Bali.
 /*     </div>*/
 /* */
 /* */
-/*     <div class="container-fluid home-gallery main-ruler">*/
+/*     <!-- TRIPADVISOR -->*/
+/*     <div class="container home-gallery main-ruler">*/
 /*         <div class="row">*/
 /*             <div class="row home-event-list">*/
 /*                 <div class="col-md-5">*/
@@ -634,52 +817,304 @@ Alam Puisi Villa in Ubud, Bali.
 /*                     <div class="tripadvisor-slide">*/
 /*                         <div class="row">*/
 /*                             <div id="tripadvisor-slide-box" class="owl-carousel owl-theme">*/
+/*                                 <!-- TRIPADVISOR - ITEM -->*/
 /*                                 <div class="item">*/
-/*                                         <div class="row">*/
-/*                                             <div class="col-sm-3 text-center">*/
-/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
-/*                                                 Clair L*/
-/*                                                 <br/>*/
-/*                                                 London, United Kingdom*/
-/*                                             </div>    */
-/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
-/*                                             ***** via mobile<br/>*/
-/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                     <div class="row">*/
+/*                                         <div class="col-sm-3">*/
+/*                                             <div class="col1of2">*/
+/*                                                 <div class="member_info">*/
+/*                                                     <div>*/
+/*                                                         <div class="avatar">*/
+/*                                                             <a onclick="">*/
+/*                                                                 <img src="{{url('/upload/alampuisi/tripadvisor/avatar-ta-1.jpg')}}" class="avatar potentialFacebookAvatar" width="74" height="74">*/
+/*                                                             </a>*/
+/*                                                         </div>*/
+/*                                                         <div class="username mo">*/
+/*                                                             <span class="expand_inline scrname">_snbeams3</span>*/
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                     <div class="location">*/
+/*                                                         Adelaide, Australia*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                                 <div class="memberBadging g10n">*/
+/*                                                     <div class="no_cpu">*/
+/*                                                         <div class="reviewerBadge">*/
+/*                                                             <img alt="" width="20" class="icon lazy" height="20" src="https://static.tacdn.com/img2/badges/20px/rev_01.png">*/
+/*                                                             <span class="badgeText">1 review</span> */
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>*/
+/*                                         </div>    */
+/*                                         <div class="col-sm-9">*/
+/*                                             <div class="col2of2">*/
+/*                                                 <div class="innerBubble">*/
+/*                                                     <div property="name" class="quote">*/
+/*                                                         <a href="https://www.tripadvisor.com/ShowUserReviews-g297701-d5279733-r377457277-Alam_Puisi_Villa-Ubud_Bali.html#"  target="_blank">*/
+/*                                                         “What a little gem”*/
+/*                                                         </a>*/
+/*                                                     </div>*/
+/*                                                     <div class="rating reviewItemInline">*/
+/*                                                         <span class="rate sprite-rating_s rating_s"> <img class="sprite-rating_s_fill rating_s_fill s50" src="https://static.tacdn.com/img2/x.gif" alt="5 of 5 stars">*/
+/*                                                         </span>*/
+/*                                                         <span class="ratingDate relativeDate" title="May 28, 2016" content="2016-05-28" property="datePublished">*/
+/*                                                             Reviewed 2 days ago*/
+/*                                                         </span>*/
+/*                                                     </div>*/
+/*                                                     <div class="entry">*/
+/*                                                         <p property="reviewBody" id="review_377457277">*/
+/*                                                         This was our second time to Bali and we decided to get away where there would be some peace and quiet. The Alam Puisi Villas certainly met these expectations.*/
+/*                                                         </p>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
 /*                                             </div>    */
 /*                                         </div>*/
+/*                                     </div>*/
 /*                                 </div>*/
+/*                                 <!-- END TRIPADVISOR - ITEM -->*/
+/*                                 <!-- TRIPADVISOR - ITEM -->*/
 /*                                 <div class="item">*/
-/*                                         <div class="row">*/
-/*                                             <div class="col-sm-3 text-center">*/
-/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
-/*                                                 Clair L*/
-/*                                                 <br/>*/
-/*                                                 London, United Kingdom*/
-/*                                             </div>    */
-/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
-/*                                             ***** via mobile<br/>*/
-/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                     <div class="row">*/
+/*                                         <div class="col-sm-3">*/
+/*                                             <div class="col1of2">*/
+/*                                                 <div class="member_info">*/
+/*                                                     <div>*/
+/*                                                         <div class="avatar">*/
+/*                                                             <a onclick="">*/
+/*                                                                 <img src="{{url('/upload/alampuisi/tripadvisor/avatar-ta-2.jpg')}}" class="avatar potentialFacebookAvatar" width="74" height="74">*/
+/*                                                             </a>*/
+/*                                                         </div>*/
+/*                                                         <div class="username mo">*/
+/*                                                             <span class="expand_inline scrname">m_abdelfattah</span>*/
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                     <div class="location">*/
+/*                                                         Alexandria, Egypt*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                                 <div class="memberBadging g10n">*/
+/*                                                     <div class="no_cpu">*/
+/*                                                         <div class="reviewerBadge">*/
+/*                                                             <img alt="" width="20" class="icon lazy" height="20" src="https://static.tacdn.com/img2/badges/20px/rev_01.png">*/
+/*                                                             <span class="badgeText">5 review</span> */
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>*/
+/*                                         </div>    */
+/*                                         <div class="col-sm-9">*/
+/*                                             <div class="col2of2">*/
+/*                                                 <div class="innerBubble">*/
+/*                                                     <div property="name" class="quote">*/
+/*                                                         <a href="https://www.tripadvisor.com/ShowUserReviews-g297701-d5279733-r377457277-Alam_Puisi_Villa-Ubud_Bali.html#"  target="_blank">*/
+/*                                                         “Awesome place and awesome staff in the middle of the nature”*/
+/*                                                         </a>*/
+/*                                                     </div>*/
+/*                                                     <div class="rating reviewItemInline">*/
+/*                                                         <span class="rate sprite-rating_s rating_s"> <img class="sprite-rating_s_fill rating_s_fill s50" src="https://static.tacdn.com/img2/x.gif" alt="5 of 5 stars">*/
+/*                                                         </span>*/
+/*                                                         <span class="ratingDate relativeDate" title="May 28, 2016" content="2016-05-28" property="datePublished">*/
+/*                                                             Reviewed 1 week ago*/
+/*                                                         </span>*/
+/*                                                     </div>*/
+/*                                                     <div class="entry">*/
+/*                                                         <p property="reviewBody" id="review_377457277">*/
+/*                                                         The place is really good, the staff is awesome, and nature is amazing. The hotel is 15 minutes away from Ubud; there are free shuttle buses. I highly recommend this place. It is one of the best places I've ever been in my life.*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375514347-Alam_Puisi_Villa-Ubud_Bali.html#" target="_blank">read more</a>   */
+/*                                                         </p>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
 /*                                             </div>    */
 /*                                         </div>*/
+/*                                     </div>*/
 /*                                 </div>*/
+/*                                 <!-- END TRIPADVISOR - ITEM -->*/
+/*                                 <!-- TRIPADVISOR - ITEM -->*/
 /*                                 <div class="item">*/
-/*                                         <div class="row">*/
-/*                                             <div class="col-sm-3 text-center">*/
-/*                                                 <img src="{{url('/themes/alampuisi/assets/images/team/aleksey.png')}}" class="img-responsive tripadvisor-img" /><br/>*/
-/*                                                 Clair L*/
-/*                                                 <br/>*/
-/*                                                 London, United Kingdom*/
-/*                                             </div>    */
-/*                                             <div class="col-sm-9"><span>"Fantastic stay"</span><br/>*/
-/*                                             ***** via mobile<br/>*/
-/*                                             The Seven Stars Luxury Hospitality and Lifestyle Awards shined bright at the*/
+/*                                     <div class="row">*/
+/*                                         <div class="col-sm-3">*/
+/*                                             <div class="col1of2">*/
+/*                                                 <div class="member_info">*/
+/*                                                     <div>*/
+/*                                                         <div class="avatar">*/
+/*                                                             <a onclick="">*/
+/*                                                                <img src="{{url('/upload/alampuisi/tripadvisor/avatar-ta-3.jpg')}}" class="avatar potentialFacebookAvatar" width="74" height="74">*/
+/*                                                             </a>*/
+/*                                                         </div>*/
+/*                                                         <div class="username mo">*/
+/*                                                             <span class="expand_inline scrname">Deano_au</span>*/
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                     <div class="location">*/
+/*                                                         Bunbury, Western Australia, Australia*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                                 <div class="memberBadging g10n">*/
+/*                                                     <div class="no_cpu">*/
+/*                                                         <div class="reviewerBadge">*/
+/*                                                             <img alt="" width="20" class="icon lazy" height="20" src="https://static.tacdn.com/img2/badges/20px/rev_01.png">*/
+/*                                                             <span class="badgeText">222 review</span> */
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>*/
+/*                                         </div>    */
+/*                                         <div class="col-sm-9">*/
+/*                                             <div class="col2of2">*/
+/*                                                 <div class="innerBubble">*/
+/*                                                     <div property="name" class="quote">*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375303612-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT"  target="_blank">*/
+/*                                                         “One Word... Superb!”*/
+/*                                                         </a>*/
+/*                                                     </div>*/
+/*                                                     <div class="rating reviewItemInline">*/
+/*                                                         <span class="rate sprite-rating_s rating_s"> <img class="sprite-rating_s_fill rating_s_fill s50" src="https://static.tacdn.com/img2/x.gif" alt="5 of 5 stars">*/
+/*                                                         </span>*/
+/*                                                         <span class="ratingDate relativeDate" title="May 28, 2016" content="2016-05-28" property="datePublished">*/
+/*                                                             Reviewed 1 weeks ago*/
+/*                                                         </span>*/
+/*                                                     </div>*/
+/*                                                     <div class="entry">*/
+/*                                                         <p property="reviewBody" id="review_377457277">*/
+/*                                                         My wife and I love travel and we love it even more when we find a place like Alam Puisi. We booked here to get away and do a digital detox, we were able to do this and so much more.*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r375303612-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT"  target="_blank">*/
+/*                                                         read more*/
+/*                                                         </a>*/
+/*                                                         </p>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
 /*                                             </div>    */
 /*                                         </div>*/
+/*                                     </div>*/
 /*                                 </div>*/
+/*                                 <!-- END TRIPADVISOR - ITEM -->*/
+/*                                 <!-- TRIPADVISOR - ITEM -->*/
+/*                                 <div class="item">*/
+/*                                     <div class="row">*/
+/*                                         <div class="col-sm-3">*/
+/*                                             <div class="col1of2">*/
+/*                                                 <div class="member_info">*/
+/*                                                     <div>*/
+/*                                                         <div class="avatar">*/
+/*                                                             <a onclick="">*/
+/*                                                                <img src="{{url('/upload/alampuisi/tripadvisor/avatar-ta-4.jpg')}}" class="avatar potentialFacebookAvatar" width="74" height="74">*/
+/*                                                             </a>*/
+/*                                                         </div>*/
+/*                                                         <div class="username mo">*/
+/*                                                             <span class="expand_inline scrname">Caitlin_G</span>*/
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                     <div class="location">*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                                 <div class="memberBadging g10n">*/
+/*                                                     <div class="no_cpu">*/
+/*                                                         <div class="reviewerBadge">*/
+/*                                                             <img alt="" width="20" class="icon lazy" height="20" src="https://static.tacdn.com/img2/badges/20px/rev_01.png">*/
+/*                                                             <span class="badgeText">19 review</span> */
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>*/
+/*                                         </div>    */
+/*                                         <div class="col-sm-9">*/
+/*                                             <div class="col2of2">*/
+/*                                                 <div class="innerBubble">*/
+/*                                                     <div property="name" class="quote">*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r374735480-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT"  target="_blank">*/
+/*                                                         “Highlight of Ubud”*/
+/*                                                         </a>*/
+/*                                                     </div>*/
+/*                                                     <div class="rating reviewItemInline">*/
+/*                                                         <span class="rate sprite-rating_s rating_s"> <img class="sprite-rating_s_fill rating_s_fill s50" src="https://static.tacdn.com/img2/x.gif" alt="5 of 5 stars">*/
+/*                                                         </span>*/
+/*                                                         <span class="ratingDate relativeDate" title="May 28, 2016" content="2016-05-28" property="datePublished">*/
+/*                                                             Reviewed 1 weeks ago*/
+/*                                                         </span>*/
+/*                                                     </div>*/
+/*                                                     <div class="entry">*/
+/*                                                         <p property="reviewBody" id="review_377457277">*/
+/*                                                        Stayed at Alam Puisi for 3 nights in a beautiful 1 bedroom villa with pool overlooking the rice fields. The grounds of the hotel were very well kept and peaceful. The staff are beyond friendly and go out of their way to make you feel welcome.*/
+/* */
+/* */
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r374735480-Alam_Puisi_Villa-Ubud_Bali.html#"  target="_blank">*/
+/*                                                         read more*/
+/*                                                         </a>*/
+/*                                                         </p>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>    */
+/*                                         </div>*/
+/*                                     </div>*/
+/*                                 </div>*/
+/*                                 <!-- END TRIPADVISOR - ITEM -->*/
+/*                                 <!-- TRIPADVISOR - ITEM -->*/
+/*                                 <div class="item">*/
+/*                                     <div class="row">*/
+/*                                         <div class="col-sm-3">*/
+/*                                             <div class="col1of2">*/
+/*                                                 <div class="member_info">*/
+/*                                                     <div>*/
+/*                                                         <div class="avatar">*/
+/*                                                             <a onclick="">*/
+/*                                                                <img src="{{url('/upload/alampuisi/tripadvisor/avatar-ta-5.jpg')}}" class="avatar potentialFacebookAvatar" width="74" height="74">*/
+/*                                                             </a>*/
+/*                                                         </div>*/
+/*                                                         <div class="username mo">*/
+/*                                                             <span class="expand_inline scrname">mikeofadelaide</span>*/
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                     <div class="location">*/
+/*                                                         Adelaide, Australia*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                                 <div class="memberBadging g10n">*/
+/*                                                     <div class="no_cpu">*/
+/*                                                         <div class="reviewerBadge">*/
+/*                                                             <img alt="" width="20" class="icon lazy" height="20" src="https://static.tacdn.com/img2/badges/20px/rev_01.png">*/
+/*                                                             <span class="badgeText">10 review</span> */
+/*                                                         </div>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>*/
+/*                                         </div>    */
+/*                                         <div class="col-sm-9">*/
+/*                                             <div class="col2of2">*/
+/*                                                 <div class="innerBubble">*/
+/*                                                     <div property="name" class="quote">*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r367980801-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT"  target="_blank">*/
+/*                                                         “A great place to relax.”*/
+/*                                                         </a>*/
+/*                                                     </div>*/
+/*                                                     <div class="rating reviewItemInline">*/
+/*                                                         <span class="rate sprite-rating_s rating_s"> <img class="sprite-rating_s_fill rating_s_fill s50" src="https://static.tacdn.com/img2/x.gif" alt="5 of 5 stars">*/
+/*                                                         </span>*/
+/*                                                         <span class="ratingDate relativeDate" title="May 28, 2016" content="2016-05-28" property="datePublished">*/
+/*                                                             Reviewed 1 weeks ago*/
+/*                                                         </span>*/
+/*                                                     </div>*/
+/*                                                     <div class="entry">*/
+/*                                                         <p property="reviewBody" id="review_377457277">*/
+/*                                                        Wonderful.*/
+/*                                                        We wanted to be out of the hustle and bustle of Ubud.*/
+/*                                                        (That's right! Ubud is now full of the people trying to get away from the madness of Kuta and surrounds.)*/
+/*                                                         <a href="https://www.tripadvisor.co.uk/ShowUserReviews-g297701-d5279733-r367980801-Alam_Puisi_Villa-Ubud_Bali.html#CHECK_RATES_CONT"  target="_blank">*/
+/*                                                         read more*/
+/*                                                         </a>*/
+/*                                                         </p>*/
+/*                                                     </div>*/
+/*                                                 </div>*/
+/*                                             </div>    */
+/*                                         </div>*/
+/*                                     </div>*/
+/*                                 </div>*/
+/*                                 <!-- END TRIPADVISOR - ITEM -->*/
+/*                                */
 /*                             </div>*/
-/*                             <div class="custom-navigation">*/
-/*                                 <a class="navigation-left home-slide-left"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-left.png'}}" /></a>*/
-/*                                 <a class="navigation-right home-slide-right"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-right.png'}}" /></a>*/
+/*                             <div class="custom-navigation custom-navigation-ext">*/
+/*                                 <a class="navigation-left home-slide-left ta-slide"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-ta-left.png'}}" /></a>*/
+/*                                 <a class="navigation-right home-slide-right ta-slide"><img src="{{'themes/alampuisi/assets/vendor/alampuisi/images/nav-ta-right.png'}}" /></a>*/
 /*                             </div>*/
 /*                         </div>*/
 /*                     </div>*/
@@ -687,3 +1122,4 @@ Alam Puisi Villa in Ubud, Bali.
 /*             </div>*/
 /*         </div>*/
 /*     </div>*/
+/*     <!-- END TRIPADVISOR -->*/

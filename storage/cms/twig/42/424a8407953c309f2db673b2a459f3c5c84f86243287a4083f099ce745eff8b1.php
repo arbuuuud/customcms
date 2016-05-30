@@ -82,52 +82,6 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
                     </div>
                 </div>
             </div>
-            <div class=\"row\">
-                <div class=\"col-md-6 col-sm-6 box-grid\">
-                    <div class=\"main-head-title title-medium\">Three Bedroom Private Pool Villa</div>
-                    <div class=\"thin-border title-medium\">___</div>
-                    <div class=\"grid2\">
-                         <figure class=\"item effect-ruby\">
-                            <img src=\"";
-        // line 57
-        echo "upload/alampuisi/Pool-Villa-10.jpg";
-        echo "\" alt=\"\" />
-                            <figcaption>
-                                <p>
-                                    <span class=\"hidden-xs\">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
-                                    <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
-                                </p>
-                                <a href=\"";
-        // line 63
-        echo url("roomrates/three-bed-room");
-        echo "\">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class=\"col-md-6 col-sm-6 box-grid\">
-                    <div class=\"main-head-title title-medium\">Premier Room</div>
-                    <div class=\"thin-border title-medium\">___</div>
-                    <div class=\"grid2\">
-                       <figure class=\"item effect-ruby\">
-                            <img src=\"";
-        // line 73
-        echo "upload/alampuisi/Deluxe-Room-1.jpg";
-        echo "\" alt=\"\" />
-                            <figcaption>
-                                <p>
-                                    <span class=\"hidden-xs\">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>
-                                    <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
-                                </p>
-                                <a href=\"";
-        // line 79
-        echo url("roomrates/premier-room");
-        echo "\">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>";
     }
@@ -144,7 +98,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 
     public function getDebugInfo()
     {
-        return array (  124 => 79,  115 => 73,  102 => 63,  93 => 57,  78 => 45,  69 => 39,  56 => 29,  47 => 23,  29 => 7,  27 => 1,  24 => 5,  21 => 2,  19 => 1,);
+        return array (  78 => 45,  69 => 39,  56 => 29,  47 => 23,  29 => 7,  27 => 1,  24 => 5,  21 => 2,  19 => 1,);
     }
 }
 /* {% put scripts %}*/
@@ -192,40 +146,6 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 /*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                                 </p>*/
 /*                                 <a href="{{url('roomrates/two-bed-room')}}">View more</a>*/
-/*                             </figcaption>*/
-/*                         </figure>*/
-/*                     </div>*/
-/*                 </div>*/
-/*             </div>*/
-/*             <div class="row">*/
-/*                 <div class="col-md-6 col-sm-6 box-grid">*/
-/*                     <div class="main-head-title title-medium">Three Bedroom Private Pool Villa</div>*/
-/*                     <div class="thin-border title-medium">___</div>*/
-/*                     <div class="grid2">*/
-/*                          <figure class="item effect-ruby">*/
-/*                             <img src="{{'upload/alampuisi/Pool-Villa-10.jpg'}}" alt="" />*/
-/*                             <figcaption>*/
-/*                                 <p>*/
-/*                                     <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>*/
-/*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
-/*                                 </p>*/
-/*                                 <a href="{{url('roomrates/three-bed-room')}}">View more</a>*/
-/*                             </figcaption>*/
-/*                         </figure>*/
-/*                     </div>*/
-/*                 </div>*/
-/*                 <div class="col-md-6 col-sm-6 box-grid">*/
-/*                     <div class="main-head-title title-medium">Premier Room</div>*/
-/*                     <div class="thin-border title-medium">___</div>*/
-/*                     <div class="grid2">*/
-/*                        <figure class="item effect-ruby">*/
-/*                             <img src="{{'upload/alampuisi/Deluxe-Room-1.jpg'}}" alt="" />*/
-/*                             <figcaption>*/
-/*                                 <p>*/
-/*                                     <span class="hidden-xs">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>*/
-/*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
-/*                                 </p>*/
-/*                                 <a href="{{url('roomrates/premier-room')}}">View more</a>*/
 /*                             </figcaption>*/
 /*                         </figure>*/
 /*                     </div>*/

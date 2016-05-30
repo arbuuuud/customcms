@@ -755,7 +755,7 @@ h6 {
 	margin: 0 auto;
 }
 .tripadvisor-right-box{
-	border-left: solid #4f402f;
+	border-left: 1px solid #4f402f;
 }
 .tripadvisor-logo-img{
 	margin: 0 auto;
@@ -1460,7 +1460,9 @@ footer {
 	bottom: 0;
 	right: 0;
 }
-
+.custom-navigation-ext{
+	top:15%;
+}
 .custom-navigation .navigation-left {
 	position: absolute;
 	left: 10px;
@@ -3015,6 +3017,62 @@ div.select-dropdown:after {
 	margin-top: -50px;
 	color :#fff;
 }
+/*TRIP ADVISOR*/
+img.avatar {
+    border-radius: 100%;
+    vertical-align: text-top;
+}
+.facebookFriend, div.avatar {
+    border: 2px solid #EDEDED;
+    border-radius: 100%;
+    float: left;
+    padding: 3px!important;
+}
+.inlineReviewUpdate .username.mo .scrname {
+    display: block;
+    width: 112px;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+}
+.rating_s .s50 {
+    width: 70px;
+}
+.sprite-rating_s_fill {
+    background-image: url('tripadvisorsprite.png');
+    background-position: left -32px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 14px;
+}
+.sprite-rating_s {
+    background-image: url('tripadvisorsprite.png');
+    background-position: left -46px;
+    width: 70px;
+    height: 14px;
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    margin-right: 4px;
+    line-height: 14px;
+    float: left;
+}
+.quote{
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: none;
+    padding-bottom: 1px;
+    margin: 0 0 5px;
+}
+.ta-slide{
+	opacity: 0.1;
+}
+.ta-slide:hover{
+	opacity: 0.3;
+}
+/*END TRIP ADVISOR*/
 @media screen\0 {
 	div.select-dropdown:after {
 		width: 42px;

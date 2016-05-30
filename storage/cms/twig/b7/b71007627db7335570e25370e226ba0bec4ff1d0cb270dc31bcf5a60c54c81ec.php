@@ -55,27 +55,27 @@ class __TwigTemplate_91921e66cc6b04769b4f9353db0664d04390c93611c916f50528eedfd86
                         <p class=\"clearfix\">&nbsp;</p>
                         <div style=\"margin-top: 20px;\">
                         <ul class=\"list-inline\">
-                                    <li><a href=\"https://www.facebook.com/pages/The-Trans-Resort-Bali/1530547410517258?rf=513256195393338\" style=\"background-color: rgb(79, 64, 47);\"target=\"_blank\"><img src=\"";
+                            <li><a href=\"#\" style=\"background-color: rgb(79, 64, 47);\"target=\"_blank\"><img src=\"";
         // line 40
         echo url("upload/icon-facebook.png");
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"https://twitter.com/TheTransBali\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
+                            <li><a href=\"#\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
         // line 41
         echo "upload/icon-twitter.png";
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"https://plus.google.com/u/0/b/104642915593386456124/pages/settings/plus\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
+                            <li><a href=\"#\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
         // line 42
         echo url("upload/icon-gplus.png");
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"http://www.tripadvisor.com/Hotel_Review-g469404-d7368654-Reviews-The_Trans_Resort_Bali-Seminyak_Bali.html\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
+                            <li><a href=\"#\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
         // line 43
         echo "upload/icon-tripadvisor.png";
         echo "\" width=\"28\" /></a></li>
-                                    <li><a href=\"index.html#\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
+                            <li><a href=\"#\" style=\"background-color: rgb(79, 64, 47);\" target=\"_blank\"><img src=\"";
         // line 44
         echo url("upload/icon-share.png");
         echo "\" width=\"28\" /></a></li>
-                            </ul>
+                        </ul>
                         </div>
                     </div>
 
@@ -105,7 +105,7 @@ class __TwigTemplate_91921e66cc6b04769b4f9353db0664d04390c93611c916f50528eedfd86
                 var marker = new google.maps.Marker({
                     position: map.getCenter(),
                     map: map,
-                    title: 'The Trans Resort Bali',
+                    title: 'Example title',
                     icon: image
                 });
             }
@@ -167,12 +167,12 @@ class __TwigTemplate_91921e66cc6b04769b4f9353db0664d04390c93611c916f50528eedfd86
 /*                         <p class="clearfix">&nbsp;</p>*/
 /*                         <div style="margin-top: 20px;">*/
 /*                         <ul class="list-inline">*/
-/*                                     <li><a href="https://www.facebook.com/pages/The-Trans-Resort-Bali/1530547410517258?rf=513256195393338" style="background-color: rgb(79, 64, 47);"target="_blank"><img src="{{url('upload/icon-facebook.png')}}" width="28" /></a></li>*/
-/*                                     <li><a href="https://twitter.com/TheTransBali" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{'upload/icon-twitter.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="https://plus.google.com/u/0/b/104642915593386456124/pages/settings/plus" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{url('upload/icon-gplus.png')}}" width="28" /></a></li>*/
-/*                                     <li><a href="http://www.tripadvisor.com/Hotel_Review-g469404-d7368654-Reviews-The_Trans_Resort_Bali-Seminyak_Bali.html" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{'upload/icon-tripadvisor.png'}}" width="28" /></a></li>*/
-/*                                     <li><a href="index.html#" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{url('upload/icon-share.png')}}" width="28" /></a></li>*/
-/*                             </ul>*/
+/*                             <li><a href="#" style="background-color: rgb(79, 64, 47);"target="_blank"><img src="{{url('upload/icon-facebook.png')}}" width="28" /></a></li>*/
+/*                             <li><a href="#" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{'upload/icon-twitter.png'}}" width="28" /></a></li>*/
+/*                             <li><a href="#" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{url('upload/icon-gplus.png')}}" width="28" /></a></li>*/
+/*                             <li><a href="#" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{'upload/icon-tripadvisor.png'}}" width="28" /></a></li>*/
+/*                             <li><a href="#" style="background-color: rgb(79, 64, 47);" target="_blank"><img src="{{url('upload/icon-share.png')}}" width="28" /></a></li>*/
+/*                         </ul>*/
 /*                         </div>*/
 /*                     </div>*/
 /* */
@@ -202,7 +202,7 @@ class __TwigTemplate_91921e66cc6b04769b4f9353db0664d04390c93611c916f50528eedfd86
 /*                 var marker = new google.maps.Marker({*/
 /*                     position: map.getCenter(),*/
 /*                     map: map,*/
-/*                     title: 'The Trans Resort Bali',*/
+/*                     title: 'Example title',*/
 /*                     icon: image*/
 /*                 });*/
 /*             }*/
