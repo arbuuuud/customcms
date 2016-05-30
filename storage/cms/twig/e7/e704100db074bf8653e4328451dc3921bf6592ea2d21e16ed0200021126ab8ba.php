@@ -38,8 +38,14 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
             
             <div class=\"col-md-6 col-sm-4\">
                 <div class=\"header-top-right\">
-                    <a href=\"/about\" class=\"font-small text-uppercase\" >About Us</a>
-                    <a href=\"/enquire\" class=\"font-small text-uppercase\" >Enquire Now</a>
+                    <a href=\"";
+        // line 23
+        echo url("/about");
+        echo "\" class=\"font-small text-uppercase\" >About Us</a>
+                    <a href=\"";
+        // line 24
+        echo url("/enquire");
+        echo "\" class=\"font-small text-uppercase\" >Enquire Now</a>
                     <a href=\"#\" class=\"font-small text-uppercase\" target=\"_blank\">Quick Reservation</a>
                 </div>
             </div>
@@ -87,7 +93,7 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 
     public function getDebugInfo()
     {
-        return array (  70 => 42,  66 => 41,  55 => 35,  19 => 1,);
+        return array (  76 => 42,  72 => 41,  61 => 35,  47 => 24,  43 => 23,  19 => 1,);
     }
 }
 /* <div class="container-fluid header-top">*/
@@ -112,8 +118,8 @@ class __TwigTemplate_c2a6c0088be84b538cd585b8fed0990eec492ce2b20b35597d034733dd0
 /*             */
 /*             <div class="col-md-6 col-sm-4">*/
 /*                 <div class="header-top-right">*/
-/*                     <a href="/about" class="font-small text-uppercase" >About Us</a>*/
-/*                     <a href="/enquire" class="font-small text-uppercase" >Enquire Now</a>*/
+/*                     <a href="{{url('/about')}}" class="font-small text-uppercase" >About Us</a>*/
+/*                     <a href="{{url('/enquire')}}" class="font-small text-uppercase" >Enquire Now</a>*/
 /*                     <a href="#" class="font-small text-uppercase" target="_blank">Quick Reservation</a>*/
 /*                 </div>*/
 /*             </div>*/

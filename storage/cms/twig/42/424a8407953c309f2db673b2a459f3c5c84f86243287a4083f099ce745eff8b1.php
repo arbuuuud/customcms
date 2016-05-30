@@ -51,7 +51,10 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
                                     <span class=\"hidden-xs\">A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo. <br /><br /></span>
                                     <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
                                 </p>
-                                <a href=\"room-rates/premier-room.html\">View more</a>
+                                <a href=\"";
+        // line 29
+        echo url("roomrates/one-bed-room");
+        echo "\">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -70,7 +73,10 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
                                     <span class=\"hidden-xs\">With two rooms and private pools connected by a door, this chummy villa is perfect for the family who would like to stay together but also enjoy privacy. The four person capacity can be expanded to include beds for two additional guests for an extra price. <br /><br /></span>
                                     <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
                                 </p>
-                                <a href=\"room-rates/premier-room.html\">View more</a>
+                                <a href=\"";
+        // line 45
+        echo url("roomrates/two-bed-room");
+        echo "\">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -91,7 +97,10 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
                                     <span class=\"hidden-xs\">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>
                                     <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
                                 </p>
-                                <a href=\"room-rates/premier-room.html\">View more</a>
+                                <a href=\"";
+        // line 63
+        echo url("roomrates/three-bed-room");
+        echo "\">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -110,7 +119,10 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
                                     <span class=\"hidden-xs\">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>
                                     <a href=\"#\" target=\"_blank\" class=\"btn btn-trans text-uppercase\">Book Now</a>
                                 </p>
-                                <a href=\"room-rates/premier-room.html\">View more</a>
+                                <a href=\"";
+        // line 79
+        echo url("roomrates/premier-room");
+        echo "\">View more</a>
                             </figcaption>
                         </figure>
                     </div>
@@ -132,7 +144,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 
     public function getDebugInfo()
     {
-        return array (  106 => 73,  87 => 57,  66 => 39,  47 => 23,  29 => 7,  27 => 1,  24 => 5,  21 => 2,  19 => 1,);
+        return array (  124 => 79,  115 => 73,  102 => 63,  93 => 57,  78 => 45,  69 => 39,  56 => 29,  47 => 23,  29 => 7,  27 => 1,  24 => 5,  21 => 2,  19 => 1,);
     }
 }
 /* {% put scripts %}*/
@@ -163,7 +175,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 /*                                     <span class="hidden-xs">A splendid one bedroom villa with a private pool and views onto the rice fields, this two-person room also comes with the ption to include beds for two extra people. The villa is completed by the private pool, sun deck, and spacious dining gazebo. <br /><br /></span>*/
 /*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                                 </p>*/
-/*                                 <a href="room-rates/premier-room.html">View more</a>*/
+/*                                 <a href="{{url('roomrates/one-bed-room')}}">View more</a>*/
 /*                             </figcaption>*/
 /*                         </figure>*/
 /*                     </div>*/
@@ -179,7 +191,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 /*                                     <span class="hidden-xs">With two rooms and private pools connected by a door, this chummy villa is perfect for the family who would like to stay together but also enjoy privacy. The four person capacity can be expanded to include beds for two additional guests for an extra price. <br /><br /></span>*/
 /*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                                 </p>*/
-/*                                 <a href="room-rates/premier-room.html">View more</a>*/
+/*                                 <a href="{{url('roomrates/two-bed-room')}}">View more</a>*/
 /*                             </figcaption>*/
 /*                         </figure>*/
 /*                     </div>*/
@@ -197,7 +209,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 /*                                     <span class="hidden-xs">With three king or twin beds in the one compound villa overlooking a private pool, this option provides complete luxury for families and friends visiting together. The villa features three spacious rooms and can house up to six people.  <br /><br /></span>*/
 /*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                                 </p>*/
-/*                                 <a href="room-rates/premier-room.html">View more</a>*/
+/*                                 <a href="{{url('roomrates/three-bed-room')}}">View more</a>*/
 /*                             </figcaption>*/
 /*                         </figure>*/
 /*                     </div>*/
@@ -213,7 +225,7 @@ class __TwigTemplate_9938d05170ad80dd765e12c2a0a52bd4123f7daa31516e4ad33eb430e86
 /*                                     <span class="hidden-xs">Premier Room are A charming room created for heightened privacy, Its located just on the front of Alam Puisi Villa with different resort named Alam Sembuwuk Resort. These Premier Room is an elegant minimalist room for two people.  <br /><br /></span>*/
 /*                                     <a href="#" target="_blank" class="btn btn-trans text-uppercase">Book Now</a>*/
 /*                                 </p>*/
-/*                                 <a href="room-rates/premier-room.html">View more</a>*/
+/*                                 <a href="{{url('roomrates/premier-room')}}">View more</a>*/
 /*                             </figcaption>*/
 /*                         </figure>*/
 /*                     </div>*/

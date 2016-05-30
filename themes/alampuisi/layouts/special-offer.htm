@@ -118,71 +118,44 @@ numberOfLevels = 3
             {% page %}
                 </div>
                 <div class="col-md-4 main-content-right" style="margin-top:20px;">
-                    <div class="box-book-right">
-						<div class="main-head-title title-small" style="font-size:16px;"><b>Check Table Availability</b></div>
-						<div class="thin-border thin-border-right title-small hidden-xs">___</div>
-						<div class="clearfix">&nbsp;</div>
-						<form action="http://www.transresortbali.com/bookingtable.php" method="post" name="resform" id="resform" autocomplete="off">
-							<input type="hidden" name="table" value="The 18th Rooftop Bar" />
-							<div class="row">
-								<div class="col-md-3 form-group form-group-book text-uppercase text-brown" style="padding-top:8px; font-size:15px;"><b>Name</b></div>
-								<div class="col-md-9 form-group form-group-book">
-									<input type="text" class="form-control box-input-book" name="name" placeholder="NAME" style="text-transform:none;" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 form-group form-group-book text-uppercase text-brown" style="padding-top:8px; font-size:15px;"><b>Email</b></div>
-								<div class="col-md-9 form-group form-group-book">
-									<input type="email" class="form-control box-input-book" name="email" placeholder="EMAIL" style="text-transform:none;" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 form-group form-group-book text-uppercase text-brown" style="padding-top:8px; font-size:15px;"><b>Date</b></div>
-								<div class="col-md-9 form-group form-group-book">
-									<div class="right-inner-addon">
-										<i class="fa fa-calendar"></i>
-										<input type="text" class="form-control input-datepicker box-input-book" name="date" data-date-format="mm/dd/yyyy" placeholder="Date" />
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 form-group form-group-book text-uppercase text-brown" style="padding-top:8px; font-size:15px;"><b>Time</b></div>
-								<div class="col-md-9 form-group form-group-book">
-									<select class="form-control box-input-book chosen-select" name="time" placeholder="Adults">
-										<option value="07:00 PM">07:00 PM</option><option value="07:30 PM">07:30 PM</option><option value="08:00 PM">08:00 PM</option><option value="08:30 PM">08:30 PM</option><option value="09:00 PM">09:00 PM</option><option value="09:30 PM">09:30 PM</option><option value="10:00 PM">10:00 PM</option><option value="10:30 PM">10:30 PM</option><option value="11:00 PM">11:00 PM</option><option value="11:30 PM">11:30 PM</option>
-									</select>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 form-group form-group-book text-uppercase text-brown" style="padding-top:8px; font-size:15px;"><b>People</b></div>
-								<div class="col-md-9 form-group form-group-book">
-									<select class="form-control box-input-book chosen-select" name="people" placeholder="Children">
-																				<option value="1">1 People</option>
-																				<option value="2">2 People</option>
-																				<option value="3">3 People</option>
-																				<option value="4">4 People</option>
-																				<option value="5">5 People</option>
-																				<option value="6">6 People</option>
-																				<option value="7">7 People</option>
-																				<option value="8">8 People</option>
-																				<option value="9">9 People</option>
-																				<option value="10">10 People</option>
-																			</select>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 text-center" style="padding-left:5px; padding-right:5px;">
-									<button type="submit" class="btn btn-trans btn-trans-sm btn-sm btn-trans-red text-uppercase" style="width:100%;">Find Me a Table</button>
-								</div>
-							</div>
-						</form>
-					</div>
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="main-content-box-accom-ruler">&nbsp;</div>
+                            <div class="main-head-title title-small"><b>Room Discount</b></div>
+                            <div class="thin-border thin-border-right title-small hidden-xs">___</div>
+                            <div class="clearfix">&nbsp;</div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="grid3">
+                                <figure class="item effect-ruby">
+                                    <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+                                    <figcaption>
+                                        <p>
+                                            <a href="{{url('/special-offer/room-discount')}}" class="btn btn-trans text-uppercase">See Offer</a>
+                                        </p>
+                                        <a href="{{url('/roomrates')}}">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="main-head-title title-small"><b>Package</b></div>
+                            <div class="thin-border thin-border-right title-small hidden-xs">___</div>
+                            <div class="clearfix">&nbsp;</div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="grid3">
+                                <figure class="item effect-ruby">
+                                    <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />
+                                    <figcaption>
+                                        <p>
+                                            <a href="{{url('/special-offer/package')}}" class="btn btn-trans text-uppercase">See Offer</a>
+                                        </p>
+                                        <a href="{{url('/roomrates')}}">View more</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>

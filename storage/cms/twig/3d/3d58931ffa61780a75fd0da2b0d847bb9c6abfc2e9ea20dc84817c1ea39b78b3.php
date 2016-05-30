@@ -207,7 +207,7 @@ class __TwigTemplate_784fb1dc610193e384ce4359aaff24ee39ca71d3a3f400263b5e70a2774
                             <div class=\"thin-border thin-border-right title-small hidden-xs\">___</div>
                             <div class=\"clearfix\">&nbsp;</div>
                         </div>
-                                                <div class=\"col-md-12 col-sm-6 col-xs-12\">
+                        <div class=\"col-md-12 col-sm-6 col-xs-12\">
                             <div class=\"grid3\">
                                 <figure class=\"item effect-ruby\">
                                     <img src=\"";
@@ -466,7 +466,7 @@ class __TwigTemplate_784fb1dc610193e384ce4359aaff24ee39ca71d3a3f400263b5e70a2774
 /*                             <div class="thin-border thin-border-right title-small hidden-xs">___</div>*/
 /*                             <div class="clearfix">&nbsp;</div>*/
 /*                         </div>*/
-/*                                                 <div class="col-md-12 col-sm-6 col-xs-12">*/
+/*                         <div class="col-md-12 col-sm-6 col-xs-12">*/
 /*                             <div class="grid3">*/
 /*                                 <figure class="item effect-ruby">*/
 /*                                     <img src="{{url('upload/alampuisi/Pool-Villa-8.jpg')}}" />*/
