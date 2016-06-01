@@ -1,0 +1,27 @@
+{
+    "name": "arbud/enquire",
+    "type": "enquire-plugin",
+    "description": "Enquire Hotel plugin",
+    "keywords": ["enquire", "cms", "demo", "plugin"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Arbud",
+            "email": "arief.setiabudi2010@gmail.com",
+            "role": "founder"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Arbud\\Enquire\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

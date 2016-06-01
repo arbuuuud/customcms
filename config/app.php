@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/mindimedia/',
+    'url' => 'http://localhost/customcms/',
 
     /*
     |--------------------------------------------------------------------------
@@ -131,6 +131,7 @@ return [
 
     'aliases' => array_merge(include(base_path().'/modules/system/aliases.php'), [
 
+    'EnquireController'  => 'Arbud\Enquire\controllers\EnquireController',
         // 'Str' => 'Illuminate\Support\Str', // Example
 
     ]),

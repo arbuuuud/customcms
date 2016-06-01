@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Enquire Controller
+
+# Model Form Field configuration
+form: $/arbud/enquire/models/enquirecontroller/fields.yaml
+
+# Model Class name
+modelClass: Arbud\Enquire\Models\Enquire
+
+# Default redirect location
+defaultRedirect: arbud/enquire/enquirecontroller
+
+# Create page
+create:
+    title: Create Enquire Controller
+    redirect: arbud/enquire/enquirecontroller/update/:id
+    redirectClose: arbud/enquire/enquirecontroller
+
+# Update page
+update:
+    title: Edit Enquire Controller
+    redirect: arbud/enquire/enquirecontroller
+    redirectClose: arbud/enquire/enquirecontroller
+
+# Preview page
+preview:
+    title: Preview Enquire Controller

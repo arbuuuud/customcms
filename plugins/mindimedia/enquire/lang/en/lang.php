@@ -1,0 +1,70 @@
+<?php
+
+return [
+    'plugin' => [
+        'name' => 'Enquire',
+        'description' => 'A robust enquireging platform.'
+    ],
+    'enquire' => [
+        'menu_label' => 'Enquire',
+        'menu_description' => 'Manage Enquire Enquiries',
+        'enquiries' => 'Enquiries',
+        'create_enquire' => 'enquire enquire',
+        'tab' => 'Enquire',
+        'access_enquiries' => 'Manage the enquire enquiries',
+        'access_other_enquiries' => 'Manage other users enquire enquiries',
+        'access_import_export' => 'Allowed to import and export enquiries',
+        'delete_confirm' => 'Are you sure?',
+        'chart_published' => 'Published',
+        'chart_drafts' => 'Drafts',
+        'chart_total' => 'Total',
+        'title' => 'Title',
+        'title_placeholder' => 'New enquire title',
+        'content' => 'Content',
+        'content_html' => 'HTML Content',
+        'slug' => 'Slug',
+        'slug_placeholder' => 'new-enquire-slug',
+        'author_email' => 'Author Email',
+        'created' => 'Created',
+        'created_date' => 'Created date',
+        'updated' => 'Updated',
+        'updated_date' => 'Updated date',
+        'published' => 'Published',
+        'published_date' => 'Published date',
+        'published_validation' => 'Please specify the published date',
+        'tab_edit' => 'Edit',
+        'tab_manage' => 'Manage',
+        'published_on' => 'Published on',
+        'excerpt' => 'Excerpt',
+        'summary' => 'Summary',
+        'featured_images' => 'Featured Images',
+        'delete_confirm' => 'Do you really want to delete this enquire?',
+        'close_confirm' => 'The enquire is not saved.',
+        'return_to_enquiries' => 'Return to enquiries list'
+    ],
+    'enquiries' => [
+        'list_title' => 'Manage the enquire enquiries',
+        'hide_published' => 'Hide published',
+        'new_enquire' => 'New enquire'
+    ],
+    'settings' => [
+       'enquire_title' => 'Enquire',
+        'enquire_description' => 'Displays a enquire enquire on the page.',
+        'enquire_slug' => 'Enquire slug',
+        'enquire_slug_description' => "Look up the enquire enquire using the supplied slug value.",
+       'enquiries_title' => 'Enquire List',
+        'enquiries_description' => 'Displays a list of latest enquire enquiries on the page.',
+        'enquiries_pagination' => 'Page number',
+        'enquiries_pagination_description' => 'This value is used to determine what page the user is on.',
+        'enquiries_filter' => 'Category filter',
+        'enquiries_filter_description' => 'Enter a category slug or URL parameter to filter the enquiries by. Leave empty to show all enquiries.',
+        'enquiries_per_page' => 'Enquiries per page',
+        'enquiries_per_page_validation' => 'Invalid format of the enquiries per page value',
+        'enquiries_no_enquiries' => 'No enquiries message',
+        'enquiries_no_enquiries_description' => 'Message to display in the enquire enquire list in case if there are no enquiries. This property is used by the default component partial.',
+        'enquiries_order' => 'Enquire order',
+        'enquiries_order_description' => 'Attribute on which the enquiries should be ordered',
+       'enquiries_enquire' => 'Enquire page',
+        'enquiries_enquire_description' => 'Name of the enquire enquire page file for the "Learn more" links. This property is used by the default component partial.'
+    ]
+];

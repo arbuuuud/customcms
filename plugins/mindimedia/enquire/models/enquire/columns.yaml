@@ -1,0 +1,34 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    title:
+        label: mindimedia.enquire::lang.enquire.title
+        searchable: true
+
+    slug:
+        label: mindimedia.enquire::lang.enquire.slug
+        searchable: true
+
+    # author:
+    #   label: Author
+    #   relation: user
+    #   select: login
+    #   searchable: true
+
+
+    created_at:
+        label: mindimedia.enquire::lang.enquire.created
+        type: date
+        invisible: true
+
+    updated_at:
+        label: mindimedia.enquire::lang.enquire.updated
+        type: date
+        invisible: true
+
+    published_at:
+        label: mindimedia.enquire::lang.enquire.published
+        type: date

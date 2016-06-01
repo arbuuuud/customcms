@@ -1,4 +1,4 @@
-1464611730s:30744:"a:6:{s:5:"mtime";i:1464405558;s:7:"content";s:15280:"title = "Enquire"
+1464747040s:30790:"a:6:{s:5:"mtime";i:1464702840;s:7:"content";s:15303:"title = "Enquire"
 url = "/enquire"
 layout = "category"
 is_hidden = 0
@@ -8,7 +8,7 @@ is_hidden = 0
 			<div class="row">
 				<div class="col-md-15"></div>
 				<div class="col-md-7 col-md-offset-15">
-					<form name="enquire-form" method="post" action="#">
+					<form name="enquire-form" method="post" action="{{url('submitenquire')}}">
 						<h3 class="main-head-title title-medium">Your Contact Information</h3>
 						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
 						<div class="clearfix">&nbsp;</div>
@@ -352,12 +352,12 @@ is_hidden = 0
 				</div>
 			</div>
 		</div>
-	</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Enquire";s:3:"url";s:8:"/enquire";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:15203:"<div class="container-fluid main-content-box main-content-enquire">
+	</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Enquire";s:3:"url";s:8:"/enquire";s:6:"layout";s:8:"category";s:9:"is_hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:15226:"<div class="container-fluid main-content-box main-content-enquire">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-15"></div>
 				<div class="col-md-7 col-md-offset-15">
-					<form name="enquire-form" method="post" action="#">
+					<form name="enquire-form" method="post" action="{{url('submitenquire')}}">
 						<h3 class="main-head-title title-medium">Your Contact Information</h3>
 						<div class="thin-border title-medium" style="margin-top:19px;">__</div>
 						<div class="clearfix">&nbsp;</div>

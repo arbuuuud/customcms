@@ -1,0 +1,16 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+    id: ID
+    title: mindimedia.enquire::lang.enquire.title
+    content: mindimedia.enquire::lang.enquire.content
+    content_html: mindimedia.enquire::lang.enquire.content_html
+    excerpt: mindimedia.enquire::lang.enquire.excerpt
+    slug: mindimedia.enquire::lang.enquire.slug
+    author_email: mindimedia.enquire::lang.enquire.author_email
+    created_at: mindimedia.enquire::lang.enquire.created_date
+    updated_at: mindimedia.enquire::lang.enquire.updated_date
+    published_at: mindimedia.enquire::lang.enquire.published_date

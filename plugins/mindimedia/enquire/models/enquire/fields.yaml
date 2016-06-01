@@ -1,0 +1,65 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: mindimedia.enquire::lang.enquire.title
+        span: left
+        placeholder: mindimedia.enquire::lang.enquire.title_placeholder
+
+    slug:
+        label: mindimedia.enquire::lang.enquire.slug
+        span: right
+        placeholder: mindimedia.enquire::lang.enquire.slug_placeholder
+        preset:
+            field: title
+            type: slug
+
+    toolbar:
+        type: partial
+        path: enquire_toolbar
+        cssClass: collapse-visible
+
+secondaryTabs:
+    stretch: true
+    fields:
+        content:
+            tab: mindimedia.enquire::lang.enquire.tab_edit
+            type: Mindimedia\Enquire\FormWidgets\EnquireMarkdown
+            cssClass: field-slim enquire-enquire-preview
+            stretch: true
+            mode: split
+
+        published:
+            tab: mindimedia.enquire::lang.enquire.tab_manage
+            label: mindimedia.enquire::lang.enquire.published
+            span: left
+            type: checkbox
+
+        published_at:
+            tab: mindimedia.enquire::lang.enquire.tab_manage
+            label: mindimedia.enquire::lang.enquire.published_on
+            span: left
+            cssClass: checkbox-align
+            type: datepicker
+            mode: date
+            trigger:
+                action: enable
+                field: published
+                condition: checked
+
+        excerpt:
+            tab: mindimedia.enquire::lang.enquire.tab_manage
+            label: mindimedia.enquire::lang.enquire.excerpt
+            type: textarea
+            size: small
+
+        featured_images:
+            tab: mindimedia.enquire::lang.enquire.tab_manage
+            label: mindimedia.enquire::lang.enquire.featured_images
+            type: fileupload
+            mode: image
+            imageWidth: 200
+            imageHeight: 200

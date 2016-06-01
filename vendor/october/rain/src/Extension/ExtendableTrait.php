@@ -354,7 +354,6 @@ trait ExtendableTrait
                 return call_user_func_array(array($extensionObject, $name), $params);
             }
         }
-
         if (isset($this->extensionData['dynamicMethods'][$name])) {
             $dynamicCallable = $this->extensionData['dynamicMethods'][$name];
 
@@ -368,6 +367,7 @@ trait ExtendableTrait
             return parent::__call($name, $params);
         }
 
+error_log('testtttt-'.$parent);
         throw new BadMethodCallException(sprintf(
             'Call to undefined method %s::%s()',
             get_class($this),
